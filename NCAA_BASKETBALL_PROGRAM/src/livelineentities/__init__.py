@@ -1,0 +1,2 @@
+from TeamTotal import TeamTotal
+
