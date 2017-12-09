@@ -3,7 +3,7 @@ from livelineentities import Odds
 class Participant(object):
 
     def _setParticipantName(self, participant_name=None):
-	    self._participant_name = particpant_name
+	    self._participant_name = participant_name
 
     def _getParticipantName(self):
 	    return self._participant_name
