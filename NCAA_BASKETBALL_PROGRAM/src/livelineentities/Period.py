@@ -38,8 +38,8 @@ class Period(object):
     total = property(_getTotal, _setTotal)
     spread = property(_getSpread, _setSpread) 
     period_status = property(_getPeriodStatus, _setPeriodStatus)
-    period_cutoff = property(_setPeriodCutoff, _getPeriodCutoff)
-    period_description = property(_setPeriodDescription, _getPeriodDescription)
+    period_cutoff = property(_getPeriodCutoff,_setPeriodCutoff)
+    period_description = property(_getPeriodDescription,_setPeriodDescription)
     
 	
 		
