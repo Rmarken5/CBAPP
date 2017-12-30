@@ -4,13 +4,11 @@
 
 import csv
 import urllib.request as request
-import pathlib
+import os
 import xml.etree.ElementTree as ET
 from livelineentities import *
 
 ncaa_name = "NCAA Basketball"
-pathlib.Path('./output-files').mkdir(parents=True, exist_ok=True) 
-outfile = open('./output-files/spread-by-line.txt','w+')
 
 # This function takes a url parses the xml.
 def parseXML(url):
@@ -22,7 +20,7 @@ def parseXML(url):
     root = tree.getroot()
     i = 0
     events = []
-
+    fh = openFile()
     print(root.text)
     for line_event in root.findall('event'):
         league = line_event.find('league').text
@@ -31,7 +29,26 @@ def parseXML(url):
             print('There\'s one')
             print('iteration: ', i)
             event = createEvent(line_event)
-            printEvent(event)
+            printEvent(event,fh)
+            return event
+			
+def openFile():
+   cur_dir = os.path.dirname(__file__)
+   print(cur_dir)
+   if not os.path.exists(cur_dir + '/' + 'output-files'):
+       os.makedirs(cur_dir+'/'+'output-files')
+   rel_dir_file = os.path.join(cur_dir, 'output-files/teams_from_feed.txt')
+   print(rel_dir_file)
+   return open(rel_dir_file,"w")
+	
+def printEvent(event, file_handler):
+    participant_one = event.participant_one
+    participant_two = event.participant_two
+
+    print(participant_one.participant_name)
+    print(participant_two.participant_name)
+    file_handler.write(participant_one.participant_name + '\n')
+    file_handler.write(participant_two.participant_name + '\n')	
 			
 def checkLeagueForNCAA(leaguename):
     if leaguename == ncaa_name:
@@ -116,16 +133,7 @@ def createTotal(line_total):
     total.under_adjust = line_total.find('under_adjust').text
 	
     return total
-	
-def printEvent(event):
-    participant_one = event.participant_one
-    participant_two = event.participant_two
 
-    print(participant_one.participant_name)
-    print(participant_two.participant_name)
-    outfile.write(participant_one.participant_name + '\n')
-    outfile.write(participant_two.participant_name + '\n')
-	
 	
 def main():
     basketballgames = parseXML(
