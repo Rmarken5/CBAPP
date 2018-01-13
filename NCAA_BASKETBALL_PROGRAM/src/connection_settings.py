@@ -8,12 +8,11 @@ def initConnectionSettings():
         'charset':'utf8mb4',
         'cursorclass':pymysql.cursors.DictCursor
         }
-    print(config)
+
     return config
 
 def createConnection():
     connSettings = initConnectionSettings();
-    print(connSettings)
 
     connection = pymysql.connect(host=connSettings['host'],
                                  user=connSettings['user_name'],
@@ -21,7 +20,7 @@ def createConnection():
                                  db=connSettings['db'],
                                  charset=connSettings['charset'],
                                  cursorclass=connSettings['cursorclass'])
-    print(connection)
+
     return connection
     
     
