@@ -4,6 +4,7 @@ from livelineentities import *
 import datetime
 from dbentities import Schedule
 from dbentities import Team
+from cbapputil import date_time_util as dtu
 
 #outfile.write(line)
 url = 'http://www.ncaa.com/scoreboard/basketball-men/d1'
@@ -137,7 +138,10 @@ def getAllGames(html):
         home_team = Team.Team()
         datetime = getDateTimeForGame(game)
         date = getDateFromDateTime(datetime)
-        # time = getTimeFromDateTime(datetime)
+		date = dbu.getTimeObjectFromString(date)
+        time = getTimeFromDateTime(datetime)
+		time = getTimeObjectFromString(time)
+		
         # participants = []
         # participants.extend(getTeamsFromGame(game))
         # if (participants is not None and len(participants) == 2 
