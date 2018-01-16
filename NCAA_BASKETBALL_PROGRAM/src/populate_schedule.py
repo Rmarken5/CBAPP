@@ -19,13 +19,13 @@ def main():
     else:
         day = str(datetime.date.today().day)
     date = str(year) + '/' + str(month) + '/' + str(day)
-    print(date)
+    print('Running populate_schedule for date: ' + date)
     url = url + '/' + date
     r = requests.get(url)
     result = r.text
     lineNum = 0
     games = []
-    games = parse_html.getAllGames(result)
+    games = parse_html.getAllGames(result,datetime.date.today())
 	
     for game in games:
         

@@ -12,6 +12,7 @@ ncaa_name = "NCAA Basketball"
 
 # This function takes a url parses the xml.
 def parseXML(url):
+
     opener = request.build_opener()
     resp = opener.open(url)
     print(resp)
@@ -30,7 +31,8 @@ def parseXML(url):
             print('iteration: ', i)
             event = createEvent(line_event)
             printEvent(event,fh)
-            return event
+            events.append(event)
+    return events
 			
 def openFile():
    cur_dir = os.path.dirname(__file__)

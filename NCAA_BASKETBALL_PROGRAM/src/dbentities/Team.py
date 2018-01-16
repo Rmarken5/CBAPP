@@ -30,7 +30,7 @@ class Team(object):
     def findTeamByScheduleName(self):
         try:
             if self.schedule_name is not '':
-                print(self.schedule_name)
+                
                 #TODO - Check if team is in DB.
                 connection = connection_settings.createConnection()
                     

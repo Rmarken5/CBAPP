@@ -85,35 +85,39 @@ def getTeamsFromGame(game):
                 team = team.strip()
                 participant = Participant()
                 participant.participant_name = team
-                print(participant.participant_name)
+                
                 output.append(participant)
     return output
 
-def getDateTimeForGame(game):
+def getTimeForGame(game):
     time = None
     lines = game.split('/n')
     for line in lines:
+        
         if '<div class="game-status pre ">' in line:
-            time = find_between(line, '<div class="game-status pre ">', 'ET</div>')
-            print(time)
-            o = datetime.datetime.strptime(time, '%-I:%M %p')
-            print(o)
+            
+            time = find_between(line, '<div class="game-status pre ">', '</div>')
+            
+            # o = datetime.datetime.strptime(time, '%-I:%M %p')
+            # print(o)
             if(time == None):
                 print('Time for ' + game + ' is returning \'None\'. ')
             return time
 			
-def getDateFromDateTime(datetime):
+def getDateFromDateTime(input):
     date = None
-    if datetime != None and datetime != '':
-        datesplit = datetime.split(' ')
+
+    if input != None and input != '':
+        datesplit = input.split(' ')
         if datesplit is not None and len(datesplit) > 1:
             date = datesplit[0]
     return date
 
-def getTimeFromDateTime(datetime):
+def getTimeFromDateTime(input):
     time = None
-    if datetime != None and datetime != '':
-        datesplit = datetime.split(' ')
+
+    if input != None and input != '':
+        datesplit = input.split(' ')
         if datesplit is not None and len(datesplit) > 1:
             time = datesplit[1]
     return time	
@@ -128,7 +132,7 @@ def openFile():
    return open(rel_dir_file,"w")
 
 
-def getAllGames(html):
+def getAllGames(html,date):
     
     games = getGamesFromBoard(html)
     scheduleArr = []
@@ -136,32 +140,34 @@ def getAllGames(html):
         schedule = Schedule.Schedule()
         away_team = Team.Team()
         home_team = Team.Team()
-        datetime = getDateTimeForGame(game)
-        date = getDateFromDateTime(datetime)
-		date = dbu.getTimeObjectFromString(date)
-        time = getTimeFromDateTime(datetime)
-		time = getTimeObjectFromString(time)
-		
-        # participants = []
-        # participants.extend(getTeamsFromGame(game))
-        # if (participants is not None and len(participants) == 2 
-        # and date is not None and time is not None):
-            # away_participant = participants[0]
-            # home_participant = participants[1]
-            # away_team.schedule_name = away_participant.participant_name
-            # home_team.schedule_name = home_participant.participant_name
-            # away_team.findTeamByScheduleName()
-            # home_team.findTeamByScheduleName()
-            # if away_team.id is not 0 and home_team.id is not 0:
-                
-                # schedule.home_team = home_team
-                # schedule.away_team = away_team
-                # schedule.game_date = date
-                # schedule.game_time = time
-                # print('home team: ' + schedule.home_team.schedule_name + ', away team: ' + schedule.away_team.schedule_name )
-                # print('date: ' + str(schedule.game_date) + ' time: ' + schedule.game_time )
-                # scheduleArr.append(schedule)
-    # return scheduleArr
+        time = getTimeForGame(game)
+        if time is not None:
+            if isinstance(date,str):
+	            date = dtu.getTimeObjectFromString(date)
+            elif not isinstance(date, datetime.date):			
+                raise Exception('date is not a date object or cannot be converted as one.')
+            #time = getTimeFromDateTime(time)
+            time = dtu.getTimeObjectFromString(time)
+            participants = []
+            participants.extend(getTeamsFromGame(game))
+            if (participants is not None and len(participants) == 2 
+            and date is not None and time is not None):
+                away_participant = participants[0]
+                home_participant = participants[1]
+                away_team.schedule_name = away_participant.participant_name
+                home_team.schedule_name = home_participant.participant_name
+                away_team.findTeamByScheduleName()
+                home_team.findTeamByScheduleName()
+                if away_team.id is not 0 and home_team.id is not 0:
+                    
+                    schedule.home_team = home_team
+                    schedule.away_team = away_team
+                    schedule.game_date = date
+                    schedule.game_time = time
+                    print('home team: ' + schedule.home_team.schedule_name + ', away team: ' + schedule.away_team.schedule_name )
+                    print('date: ' + datetime.datetime.strftime(schedule.game_date, '%Y/%m/%d') + ' time: ' + datetime.time.strftime(schedule.game_time,'%H:%M' ))
+                    scheduleArr.append(schedule)
+    return scheduleArr
 		
 #scoreboard = findScoreBoard(result)
 

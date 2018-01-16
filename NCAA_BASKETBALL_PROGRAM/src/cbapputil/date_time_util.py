@@ -4,9 +4,12 @@ def getTimeObjectFromString(input):
 
     if ':' in input:
         time_pieces = input.split(':')
+
         hour = time_pieces[0]
         second_half = time_pieces[1]
+
         second_half_peices = second_half.split(' ')
+
         if len(hour) == 1:
             hour = '0' + hour
         minutes = second_half_peices[0]
@@ -18,13 +21,14 @@ def getTimeObjectFromString(input):
         	
         time_string = str(hour) + ':' +  minutes
         time_object = datetime.strptime(time_string, '%H:%M').time()
-        print (str(time_object))
+        
+        return time_object
 
 def getDateObjectFromString(input):
-    
+
     if len(input.split('/')) == 3:
         date_object = datetime.strptime(input, '%Y/%m/%d')
-        print (str(date_object))
+        return date_object
 	
 if __name__ == '__main__':
     getTimeObjectFromString()
