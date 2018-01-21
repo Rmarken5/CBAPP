@@ -1,102 +1,34 @@
-Clemson
+Maryland
+Indiana
 North Carolina
-Northern Illinois
-Buffalo
-Western Michigan
-Kent State
-Akron
-Eastern Michigan
-Central Michigan
-Ball State
-Toledo
-Ohio
-Wisconsin
-Purdue
-Cincinnati
-Central Florida
-Louisville
-Notre Dame
-Georgia
-LSU
-Vanderbilt
-Mississippi State
-Bowling Green
-Miami Ohio
-Drake
-Northern Iowa
-Connecticut
-Memphis
-Oklahoma
+Virginia Tech
+Iowa State
+Texas
+Nebraska
+Ohio State
 Kansas State
-Pittsburgh
-Syracuse
-Kentucky
-South Carolina
-Mississippi
-Texas Aandamp;M
-North Dakota
-North Dakota State
-Youngstown State
-Wright State
-Butler
-Providence
-Maryland
-Michigan
-Duke
-Miami Florida
-Florida State
-Boston College
-Minnesota
-Penn State
-Cleveland State
-Northern Kentucky
-Oakland
-Illinois Chicago
-Wisc Milwaukee
-Wisc Green Bay
-Depaul
-Marquette
-Illinois
-Nebraska
-Oklahoma State
 Baylor
-Kansas
 West Virginia
-VMI
-Western Carolina
-Tenn Chattanooga
-Mercer
-Bucknell
-Colgate
-Youngstown State
-Wright State
-Butler
-Providence
-Maryland
-Michigan
-Duke
-Miami Florida
-Florida State
-Boston College
-Minnesota
-Penn State
-Cleveland State
-Northern Kentucky
-Oakland
-Illinois Chicago
-Wisc Milwaukee
-Wisc Green Bay
-Depaul
-Marquette
+TCU
+Michigan State
 Illinois
-Nebraska
-Oklahoma State
-Baylor
-Kansas
-West Virginia
-VMI
-Western Carolina
-Tenn Chattanooga
-Mercer
-Bucknell
-Colgate
+Holy Cross
+American
+Appalachian State
+Troy
+Northern Iowa
+Southern Illinois
+Loyola Chicago
+Valparaiso
+Virginia
+Wake Forest
+Washington State
+Utah
+Northern Iowa
+Southern Illinois
+Loyola Chicago
+Valparaiso
+Virginia
+Wake Forest
+Washington State
+Utah

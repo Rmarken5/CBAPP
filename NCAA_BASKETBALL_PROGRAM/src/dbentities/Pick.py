@@ -48,7 +48,7 @@ class Pick(object):
         try:
             connection = connection_settings.createConnection()
             if connection is not None and self.game_date is not None \
-            and self.home_team is not None \ 
+            and self.home_team is not None \
             and self.away_team is not None:
 
                 with connection.cursor() as cursor:
@@ -56,7 +56,7 @@ class Pick(object):
                     cursor.execute(SELECT_PICK_BY_DATE_HOME_AWAY, (self.game_date, self.home_team.id, self.away_team.id))
                     cursor.commit()
 					
-                    print('Select pick complete: date: ' + datetime.datetime.strftime(self.game_date,'%Y/%m/%d') + ' time: ' datetime.time.strftime(self.game_time, '%H:%M') + '. Home team: '\
+                    print('Select pick complete: date: ' + datetime.datetime.strftime(self.game_date,'%Y/%m/%d') + ' time: ' + datetime.time.strftime(self.game_time, '%H:%M') + '. Home team: ' \
                     + self.home_team.spread_name + '. Spread: ' + str(self.spread) +'. Away team: ' + self.away_team.spread_name + 'Favorite team: ' + self.favorite_team.spread_name )
 
         except Exception as e:
@@ -68,7 +68,7 @@ class Pick(object):
         try:
             connection = connection_settings.createConnection()
             if connection is not None and self.game_date is not None \
-            and self.home_team is not None \ 
+            and self.home_team is not None \
             and self.away_team is not None:
 
                 with connection.cursor() as cursor:

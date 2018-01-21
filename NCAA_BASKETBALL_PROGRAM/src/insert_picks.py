@@ -1,5 +1,6 @@
 import readbasketballlines as rl
 from dbentities import Pick
+from dbentities import Team
 from cbapputil import date_time_util as dtu
 
 def main():
@@ -17,7 +18,7 @@ def main():
 def getPickFromGame(game):
     pick = None
     if game != None:
-        pick = Pick()
+        pick = Pick.Pick()
         pick.game_date = dtu.getDateObjectFromString(game.event_datetime)
         pick.game_time = dtu.getTimeObjectFromString(game.event_datetime)
         team_one = getTeamFromParticipant(game.participant_one)
@@ -34,7 +35,7 @@ def getPickFromGame(game):
 def getTeamFromParticipant(participant):
     team = None
     if participant is not None:
-        team = Team()
+        team = Team.Team()
         team.spread_name = participant
         team.findTeamBySpreadName()
     return team
