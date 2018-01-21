@@ -28,7 +28,7 @@ def getPickFromGame(game):
             favorite = calculateFavorite(pick.away_team, pick.home_team)
             if favorite is not None:
                 pick.favorite_team = favorite
-				pick.spread = game.period.spread
+                pick.spread = game.period.spread
 		
         
 def getTeamFromParticipant(participant):
