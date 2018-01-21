@@ -138,9 +138,10 @@ def createTotal(line_total):
 
 	
 def main():
-    basketballgames = parseXML(
+    basketball_games = parseXML(
         'http://livelines.betonline.com/sys/LineXML/LiveLineObjXml.asp?sport=basketball&league=NCAA%20Basketball')
 
-
+    return basketball_games
+		
 if __name__ == "__main__":
     main()
