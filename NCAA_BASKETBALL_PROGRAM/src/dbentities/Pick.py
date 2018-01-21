@@ -27,7 +27,7 @@ class Pick(object):
         try:
             connection = connection_settings.createConnection()
             if connection is not None and self.game_date is not None \
-            and self.game_time is not None and self.home_team is not None \ 
+            and self.game_time is not None and self.home_team is not None \
             and self.away_team is not None and self.favorite_team is not None:
 
                 with connection.cursor() as cursor:
