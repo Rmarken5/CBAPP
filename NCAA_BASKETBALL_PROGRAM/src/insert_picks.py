@@ -32,7 +32,7 @@ def getPickFromGame(game):
 		
         
 def getTeamFromParticipant(participant):
-    team = None:
+    team = None
     if participant is not None:
         team = Team()
         team.spread_name = participant
