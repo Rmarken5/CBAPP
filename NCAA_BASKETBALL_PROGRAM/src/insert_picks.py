@@ -53,5 +53,5 @@ def calculateFavorite(away_team, home_team):
 
 
 	
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()
