@@ -8,9 +8,9 @@ import datetime
 
 class Pick(object):
 
-    SELECT_PICK_BY_DATE_HOME_AWAY = 'SELECT * FROM PICK WHERE GAME_DATE = %s AND HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s'
-    INSERT_PICK = 'INSERT PICK (GAME_DATE, GAME_TIME, HOME_TEAM_ID, SPREAD, AWAY_TEAM_ID, FAVORITE_TEAM_ID) VALUES (%s, %s, %s, %s, %s, %s)'
-    UPDATE_PICK_BY_ID = 'UPDATE PICK SET PICKED_CORRECTLY = %s WHERE PICK_ID = %s'
+    select_pick_by_date_home_away = 'SELECT * FROM PICK WHERE GAME_DATE = %s AND HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s'
+    
+    update_pick_by_id = 'UPDATE PICK SET PICKED_CORRECTLY = %s WHERE PICK_ID = %s'
 
     def __init__(self):
         self.pick_id = 0
@@ -24,16 +24,18 @@ class Pick(object):
 
 
     def insertPick(self):
+        insert_pick_query = 'INSERT PICK (GAME_DATE, GAME_TIME, HOME_TEAM_ID, SPREAD, AWAY_TEAM_ID, FAVORITE_TEAM_ID) VALUES (%s, %s, %s, %s, %s, %s)'
         try:
             connection = connection_settings.createConnection()
+            print(self.spread)
             if connection is not None and self.game_date is not None \
             and self.game_time is not None and self.home_team is not None \
             and self.away_team is not None and self.favorite_team is not None:
 
                 with connection.cursor() as cursor:
                     
-                    cursor.execute(INSERT_PICK, (self.game_date, self.game_time, self.home_team.id, self.spread, self.away_team.id, self.favorite_team.id))
-                    cursor.commit()
+                    cursor.execute(insert_pick_query, (self.game_date, self.game_time, self.home_team.id, self.spread, self.away_team.id, self.favorite_team.id))
+                    connection.commit()
 					
                     print('Insert into pick complete: date: ' + datetime.datetime.strftime(self.game_date,'%Y/%m/%d') + '. Home team: ' \
                     + self.home_team.spread_name + '. Away team: ' + self.away_team.spread_name )
@@ -53,8 +55,8 @@ class Pick(object):
 
                 with connection.cursor() as cursor:
                     
-                    cursor.execute(SELECT_PICK_BY_DATE_HOME_AWAY, (self.game_date, self.home_team.id, self.away_team.id))
-                    cursor.commit()
+                    cursor.execute(select_pick_by_date_home_away, (self.game_date, self.home_team.id, self.away_team.id))
+                    connection.commit()
 					
                     print('Select pick complete: date: ' + datetime.datetime.strftime(self.game_date,'%Y/%m/%d') + ' time: ' + datetime.time.strftime(self.game_time, '%H:%M') + '. Home team: ' \
                     + self.home_team.spread_name + '. Spread: ' + str(self.spread) +'. Away team: ' + self.away_team.spread_name + 'Favorite team: ' + self.favorite_team.spread_name )
@@ -73,8 +75,8 @@ class Pick(object):
 
                 with connection.cursor() as cursor:
                     
-                    cursor.execute(UPDATE_PICK_BY_ID, (self.picked_correctly, self.pick_id))
-                    cursor.commit()
+                    cursor.execute(update_pick_by_id, (self.picked_correctly, self.pick_id))
+                    connection.commit()
 					
                     print('Update pick complete... picked correctly: ' +  self.favorite_team.spread_name )
 

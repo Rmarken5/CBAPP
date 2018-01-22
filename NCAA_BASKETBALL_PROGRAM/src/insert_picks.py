@@ -9,10 +9,12 @@ def main():
     picks = []
     for game in games:
         pick = getPickFromGame(game)
-        picks.append(pick)
+        if pick is not None:
+            picks.append(pick)
 
     for pick in picks:
-        pick.insertPick()
+        if pick is not None:
+            pick.insertPick()
 		
 
 def getPickFromGame(game):
@@ -21,15 +23,17 @@ def getPickFromGame(game):
         pick = Pick.Pick()
         pick.game_date = dtu.getDateObjectFromString(game.event_datetime)
         pick.game_time = dtu.getTimeObjectFromString(game.event_datetime)
-        team_one = getTeamFromParticipant(game.participant_one)
-        team_two = getTeamFromParticipant(game.participant_two)
+        print (pick.game_time)
+        team_one = getTeamFromParticipant(game.participant_one.participant_name)
+        team_two = getTeamFromParticipant(game.participant_two.participant_name)
         if team_one is not None and team_two is not None:
             pick.away_team = team_one
             pick.home_team = team_two
             favorite = calculateFavorite(pick.away_team, pick.home_team)
             if favorite is not None:
                 pick.favorite_team = favorite
-                pick.spread = game.period.spread
+                pick.spread = game.period.spread.spread_home
+    return pick            
 		
         
 def getTeamFromParticipant(participant):
@@ -38,7 +42,9 @@ def getTeamFromParticipant(participant):
         team = Team.Team()
         team.spread_name = participant
         team.findTeamBySpreadName()
-    return team
+        if team.id is not 0:
+            return team
+    return None
 
 def calculateFavorite(away_team, home_team):
 
