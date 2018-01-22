@@ -23,7 +23,7 @@ def getPickFromGame(game):
         pick = Pick.Pick()
         pick.game_date = dtu.getDateObjectFromString(game.event_datetime)
         pick.game_time = dtu.getTimeObjectFromString(game.event_datetime)
-        print (pick.game_time)
+        
         team_one = getTeamFromParticipant(game.participant_one.participant_name)
         team_two = getTeamFromParticipant(game.participant_two.participant_name)
         if team_one is not None and team_two is not None:

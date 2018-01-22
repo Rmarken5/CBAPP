@@ -27,7 +27,7 @@ class Pick(object):
         insert_pick_query = 'INSERT PICK (GAME_DATE, GAME_TIME, HOME_TEAM_ID, SPREAD, AWAY_TEAM_ID, FAVORITE_TEAM_ID) VALUES (%s, %s, %s, %s, %s, %s)'
         try:
             connection = connection_settings.createConnection()
-            print(self.spread)
+
             if connection is not None and self.game_date is not None \
             and self.game_time is not None and self.home_team is not None \
             and self.away_team is not None and self.favorite_team is not None:
