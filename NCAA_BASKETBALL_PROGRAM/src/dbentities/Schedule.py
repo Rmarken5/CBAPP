@@ -6,6 +6,7 @@ class Schedule(object):
 
     insert_schedule_sql = 'INSERT INTO SCHEDULE (GAME_DATE, GAME_TIME, HOME_TEAM_ID, AWAY_TEAM_ID, HOME_TEAM_SCORE, AWAY_TEAM_SCORE, WINNING_TEAM_ID, LOSING_TEAM_ID) VALUES(%s, %s, %s, %s, %s, %s, %s, %s)'
     insert_initial_schedule_sql = 'INSERT INTO SCHEDULE (GAME_DATE, GAME_TIME, HOME_TEAM_ID, AWAY_TEAM_ID) VALUES(%s, %s, %s, %s)'
+    update_schedule_sql = 'UPDATE SCHEDULE SET HOME_TEAM_SCORE = %s, AWAY_TEAM_SCORE = %s, WINNING_TEAM_ID = %s, LOSING_TEAM_ID = %s WHERE HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s AND GAME_DATE = %s'
 	
     def __init__(self):
         self.schedule_id = 0
@@ -16,7 +17,7 @@ class Schedule(object):
         self.home_team_score = 0
         self.away_team_score = 0
         self.winning_team = None
-        self.lossing_team = None
+        self.losing_team = None
 
     def equals(self, other):
         if (self.schedule_id != other.schedule_id):
@@ -60,12 +61,12 @@ class Schedule(object):
             return False
         elif(self.winning_team == None and other.winning_team != None):
             return False
-        if(self.lossing_team != None and other.lossing_team != None):
-            if not(self.lossing_team.equals(other.lossing_team)):
+        if(self.losing_team != None and other.losing_team != None):
+            if not(self.losing_team.equals(other.losing_team)):
                 return False
-        elif(self.lossing_team != None and other.lossing_team == None):
+        elif(self.losing_team != None and other.losing_team == None):
             return False
-        elif(self.lossing_team == None and other.lossing_team != None):
+        elif(self.losing_team == None and other.losing_team != None):
             return False
         return True
     
@@ -79,7 +80,7 @@ class Schedule(object):
         # 'home_team: ' + str(self.home_team_score) + '\n' +
         # 'away_team_score: ' + str(self.away_team_score) + '\n' +
         # 'winning_team: ' + str(self.winning_team.printTeam()) + '\n' +
-        # 'lossing_team: ' + str(self.lossing_team.printTeam()) +' ]')
+        # 'losing_team: ' + str(self.losing_team.printTeam()) +' ]')
 
 
 
@@ -103,4 +104,24 @@ class Schedule(object):
         finally:
             connection.close()
 		
-		
+    def updateSchedule(self):
+        
+        try:
+            
+            if self.game_date != None \
+            and self.home_team != None \
+            and self.away_team != None:
+			
+                connection = connection_settings.createConnection();
+
+                with connection.cursor() as cursor:
+                    cursor.execute(self.update_schedule_sql,(self.home_team_score, self.away_team_score, self.winning_team.id, self.losing_team.id, self.home_team.id, self.away_team.id, self.game_date) )
+                    connection.commit()
+                    print('game updated for schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d'))
+
+			
+			
+        except Exception as e:
+            print('Issue in updateSchedule: \n' + str(e) + '\n' + 'home team schedule name: ' + self.home_team.schedule_name)
+        finally:
+            connection.close()
