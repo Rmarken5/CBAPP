@@ -99,7 +99,7 @@ def getTimeForGame(game):
             time = find_between(line, '<div class="game-status pre ">', '</div>')
             
             # o = datetime.datetime.strptime(time, '%-I:%M %p')
-            # print(o)
+            print(time)
             if(time == None):
                 print('Time for ' + game + ' is returning \'None\'. ')
             return time
@@ -176,12 +176,13 @@ def getAllGames(html,date):
                     home_score = scores[1]
                     schedule.home_team_score = home_score
                     schedule.away_team_score = away_score
-                    if int(home_score) > int(away_score):
-                        schedule.winning_team = home_team
-                        schedule.losing_team = away_team
-                    else:
-                        schedule.losing_team = home_team
-                        schedule.winning_team = away_team
+                    if home_score is not '' and away_score is not '':
+                        if int(home_score) > int(away_score):
+                            schedule.winning_team = home_team
+                            schedule.losing_team = away_team
+                        else:
+                            schedule.losing_team = home_team
+                            schedule.winning_team = away_team
                 schedule.home_team = home_team
                 schedule.away_team = away_team
                 schedule.game_date = date

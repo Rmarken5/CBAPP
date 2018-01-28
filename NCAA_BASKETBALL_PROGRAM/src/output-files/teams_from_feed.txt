@@ -1,18 +1,78 @@
-Maryland
-Indiana
-North Carolina
-Virginia Tech
-Iowa State
-Texas
-Nebraska
-Ohio State
+Northwestern
+Michigan
+Notre Dame
+Duke
+Illinois Chicago
+Wisc Milwaukee
+Kansas
 Kansas State
-Baylor
-West Virginia
-TCU
-Michigan State
-Illinois
+Nebraska
+Wisconsin
+East Tenn State
+The Citadel
+Western Carolina
+Wofford
+NC Greensboro
+Tenn Chattanooga
+Monmouth
+Rider
+St. Peter's
+Siena
+Iona
+Fairfield
+VMI
+Samford
+Lehigh
 Holy Cross
-American
-Appalachian State
-Troy
+East Carolina
+SMU
+Oakland
+Wright State
+Bradley
+Indiana State
+Richmond
+Davidson
+South Florida
+Houston
+Purdue
+Indiana
+Seton Hall
+Depaul
+Northern Iowa
+Loyola Chicago
+California
+USC
+Tulsa
+Wichita State
+Clemson
+Georgia Tech
+Connecticut
+Temple
+Washington State
+Washington
+East Carolina
+SMU
+Oakland
+Wright State
+Bradley
+Indiana State
+Richmond
+Davidson
+South Florida
+Houston
+Purdue
+Indiana
+Seton Hall
+Depaul
+Northern Iowa
+Loyola Chicago
+California
+USC
+Tulsa
+Wichita State
+Clemson
+Georgia Tech
+Connecticut
+Temple
+Washington State
+Washington

@@ -3,25 +3,27 @@ from datetime import datetime
 def getTimeObjectFromString(input):
     
     if ':' in input:
-        time_pieces = input.split(' ')
-        time_string = time_pieces[1]
+        time_pieces = input.split(':')
+        # time_string = time_pieces[1]
 
-        # hour = time_pieces[0]
-        # minutes = time_pieces[1]
-        # print(hour)
-        # print (minutes)
+        hour = time_pieces[0]
+        minutes = time_pieces[1]
+        print(hour)
+        print (minutes)
         
+        second_half_peices = minutes.split(' ')
+        minutes = second_half_peices[0]
+        if len(hour) == 1:
+            hour = '0' + hour
         
-        #     if len(hour) == 1:
-        #         hour = '0' + hour
-            
-        #     indicator = second_half_peices[1].strip().upper()
-        #     if hour == '12':
-        #         hour = '00'
-        #     if indicator == 'PM':
-        #         hour = str((int(hour) + 12))
-            	
-        # print(time_string)    
+        indicator = second_half_peices[1].strip().upper()
+        if hour == '12':
+            hour = '00'
+        if indicator == 'PM':
+            hour = str((int(hour) + 12))
+        	
+        #print(time_string)    
+        time_string = hour + ':' + minutes
         time_object = datetime.strptime(time_string, '%H:%M').time()
         # print(time_object)    
         return time_object

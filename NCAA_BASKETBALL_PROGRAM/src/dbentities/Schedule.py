@@ -97,12 +97,12 @@ class Schedule(object):
                    cursor.execute(self.insert_initial_schedule_sql,(self.game_date, self.game_time,self.home_team.id, self.away_team.id) )
                    connection.commit()
                    print('game inserted into schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d') + ' ' + datetime.time.strftime(self.game_time,'%H:%M')  )
-			
+                   connection.close()
 		
         except Exception as e:
             print('Issue in insertSchedule: \n' + str(e) + '\n' + 'home team schedule name: ' + self.home_team.schedule_name)
-        finally:
-            connection.close()
+        
+            
 		
     def updateSchedule(self):
         

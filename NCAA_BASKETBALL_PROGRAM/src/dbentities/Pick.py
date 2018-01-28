@@ -11,6 +11,8 @@ class Pick(object):
     select_pick_by_date_home_away = 'SELECT * FROM PICK WHERE GAME_DATE = %s AND HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s'
     
     update_pick_by_id = 'UPDATE PICK SET PICKED_CORRECTLY = %s WHERE PICK_ID = %s'
+	
+    select_picks_by_date = 'SELECT * FROM PICK WHERE GAME_DATE = %s'
 
     def __init__(self):
         self.pick_id = 0
@@ -82,6 +84,25 @@ class Pick(object):
 
         except Exception as e:
             print('Issue in updatePick(): ' + str(e))
+        finally:
+            connection.close()
+			
+    def getPicksByDate(self, date):
+        try:
+            print(date)
+            connection = connection_settings.createConnection()
+            if connection is not None and date is not None:
+
+                with connection.cursor() as cursor:
+                    
+                    cursor.execute(self.select_picks_by_date, (date))
+                    results = cursor.fetchall()
+                    print ('getPicksByDate: ' + str(results))
+                    return results
+				
+
+        except Exception as e:
+            print('Issue in getPicksByDate(): ' + str(e))
         finally:
             connection.close()
 #TODO - Create select and update methods
