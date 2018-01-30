@@ -5,13 +5,14 @@
 
 import connection_settings
 import datetime
+from dbentities import Team
 
 class Pick(object):
 
     select_pick_by_date_home_away = 'SELECT * FROM PICK WHERE GAME_DATE = %s AND HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s'
     
     update_pick_by_id = 'UPDATE PICK SET PICKED_CORRECTLY = %s WHERE PICK_ID = %s'
-	
+    
     select_picks_by_date = 'SELECT * FROM PICK WHERE GAME_DATE = %s'
 
     def __init__(self):
@@ -38,7 +39,7 @@ class Pick(object):
                     
                     cursor.execute(insert_pick_query, (self.game_date, self.game_time, self.home_team.id, self.spread, self.away_team.id, self.favorite_team.id))
                     connection.commit()
-					
+                    
                     print('Insert into pick complete: date: ' + datetime.datetime.strftime(self.game_date,'%Y/%m/%d') + '. Home team: ' \
                     + self.home_team.spread_name + '. Away team: ' + self.away_team.spread_name )
 
@@ -57,9 +58,9 @@ class Pick(object):
 
                 with connection.cursor() as cursor:
                     
-                    cursor.execute(select_pick_by_date_home_away, (self.game_date, self.home_team.id, self.away_team.id))
+                    cursor.execute(self.select_pick_by_date_home_away, (self.game_date, self.home_team.id, self.away_team.id))
                     connection.commit()
-					
+                    
                     print('Select pick complete: date: ' + datetime.datetime.strftime(self.game_date,'%Y/%m/%d') + ' time: ' + datetime.time.strftime(self.game_time, '%H:%M') + '. Home team: ' \
                     + self.home_team.spread_name + '. Spread: ' + str(self.spread) +'. Away team: ' + self.away_team.spread_name + 'Favorite team: ' + self.favorite_team.spread_name )
 
@@ -77,17 +78,19 @@ class Pick(object):
 
                 with connection.cursor() as cursor:
                     
-                    cursor.execute(update_pick_by_id, (self.picked_correctly, self.pick_id))
+                    cursor.execute(self.update_pick_by_id, (self.picked_correctly, self.pick_id))
                     connection.commit()
-					
+                    
                     print('Update pick complete... picked correctly: ' +  self.favorite_team.spread_name )
 
         except Exception as e:
             print('Issue in updatePick(): ' + str(e))
         finally:
             connection.close()
-			
+            
     def getPicksByDate(self, date):
+        connectio = None
+        picks = []
         try:
             print(date)
             connection = connection_settings.createConnection()
@@ -97,14 +100,46 @@ class Pick(object):
                     
                     cursor.execute(self.select_picks_by_date, (date))
                     results = cursor.fetchall()
-                    print ('getPicksByDate: ' + str(results))
+                    
                     return results
-				
+                
 
         except Exception as e:
             print('Issue in getPicksByDate(): ' + str(e))
         finally:
-            connection.close()
+            if connection is not None:
+                connection.close()
+
+    def createPickFromDictionary(self, dictionaryEntry):
+        if dictionaryEntry is not None:
+            print (dictionaryEntry)
+            self.pick_id = dictionaryEntry['PICK_ID']
+            self.game_date = dictionaryEntry['GAME_DATE']
+            self.game_time = dictionaryEntry['GAME_TIME']
+            if dictionaryEntry['HOME_TEAM_ID'] is not None:
+                _home_team = Team.Team()
+                _home_team.id = dictionaryEntry['HOME_TEAM_ID']
+                _home_team.findTeamById()
+                print ('dictEntry: ' + str(dictionaryEntry['HOME_TEAM_ID']))
+                print('createPickFromDictionary Name :  ' + _home_team.spread_name)
+                self.home_team = _home_team
+            self.spread = dictionaryEntry['SPREAD']
+            if dictionaryEntry['AWAY_TEAM_ID'] is not None: 
+                _away_team = Team.Team()
+                _away_team.id = dictionaryEntry['AWAY_TEAM_ID']
+                _away_team.findTeamById()
+                self.away_team = _away_team
+            if dictionaryEntry['FAVORITE_TEAM_ID'] is not None: 
+                _favorite_team = Team.Team()
+                _favorite_team.id = dictionaryEntry['FAVORITE_TEAM_ID']
+                _favorite_team.findTeamById()
+                self.favorite_team = _favorite_team
+            self.picked_correctly = dictionaryEntry['PICKED_CORRECTLY']
+
+
+
+
+
 #TODO - Create select and update methods
         
         

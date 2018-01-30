@@ -7,7 +7,9 @@ class Schedule(object):
     insert_schedule_sql = 'INSERT INTO SCHEDULE (GAME_DATE, GAME_TIME, HOME_TEAM_ID, AWAY_TEAM_ID, HOME_TEAM_SCORE, AWAY_TEAM_SCORE, WINNING_TEAM_ID, LOSING_TEAM_ID) VALUES(%s, %s, %s, %s, %s, %s, %s, %s)'
     insert_initial_schedule_sql = 'INSERT INTO SCHEDULE (GAME_DATE, GAME_TIME, HOME_TEAM_ID, AWAY_TEAM_ID) VALUES(%s, %s, %s, %s)'
     update_schedule_sql = 'UPDATE SCHEDULE SET HOME_TEAM_SCORE = %s, AWAY_TEAM_SCORE = %s, WINNING_TEAM_ID = %s, LOSING_TEAM_ID = %s WHERE HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s AND GAME_DATE = %s'
-	
+    find_schedule_date_teams = 'SELECT * FROM SCHEDULE WHERE GAME_DATE = %s AND HOME_TEAM_ID = %s AND AWAY_TEAM_ID = %s'
+
+
     def __init__(self):
         self.schedule_id = 0
         self.game_date = None
@@ -71,7 +73,7 @@ class Schedule(object):
         return True
     
     # def printSchedule(self):
-    	# print('Schedule: \n: ' + '[' +
+        # print('Schedule: \n: ' + '[' +
         # 'schedule_id: ' + str(self.schedule_id) + '\n' +
         # 'game_time: ' + str(self.game_date) + '\n' +
         # 'game_time: ' + str(self.game_time) + '\n' +
@@ -98,12 +100,12 @@ class Schedule(object):
                    connection.commit()
                    print('game inserted into schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d') + ' ' + datetime.time.strftime(self.game_time,'%H:%M')  )
                    connection.close()
-		
+        
         except Exception as e:
             print('Issue in insertSchedule: \n' + str(e) + '\n' + 'home team schedule name: ' + self.home_team.schedule_name)
         
             
-		
+        
     def updateSchedule(self):
         
         try:
@@ -111,17 +113,75 @@ class Schedule(object):
             if self.game_date != None \
             and self.home_team != None \
             and self.away_team != None:
-			
+               
                 connection = connection_settings.createConnection();
 
                 with connection.cursor() as cursor:
+                    
                     cursor.execute(self.update_schedule_sql,(self.home_team_score, self.away_team_score, self.winning_team.id, self.losing_team.id, self.home_team.id, self.away_team.id, self.game_date) )
                     connection.commit()
                     print('game updated for schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d'))
 
-			
-			
+            
+            
         except Exception as e:
             print('Issue in updateSchedule: \n' + str(e) + '\n' + 'home team schedule name: ' + self.home_team.schedule_name)
         finally:
             connection.close()
+
+    def findScheduleByDateTeams(self):
+
+        try:
+            
+            if self.game_date != None \
+            and self.home_team != None \
+            and self.away_team != None:
+            
+                connection = connection_settings.createConnection();
+
+                with connection.cursor() as cursor:
+                    cursor.execute(self.find_schedule_date_teams,(self.game_date, self.home_team.id, self.away_team.id))
+                    result = cursor.fetchone()
+                    if result == None:
+                        raise RuntimeError('Error in findScheduleByDateTeams: \'results\' == None for HOME_TEAM_ID: ' + str(self.home_team.id) + '. AWAY_TEAM_ID: ' + str(self.away_team.id) + '. GAME_DATE: ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d'))
+                    
+                    print('game updated for schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d'))
+
+            
+            
+        except Exception as e:
+            print('Issue in findScheduleByDateTeams: \n' + str(e) + '\n' + 'home team schedule name: ' + self.home_team.schedule_name)
+        finally:
+            if connection is not None:
+                connection.close()
+
+    def createScheduleFromDict(self, dict):
+        if dict is not None:
+
+            self.schedule_id = dict['SCHEDULE_ID']
+            self.game_date = dict['GAME_DATE']
+            self.game_time = dict['GAME_TIME']
+            if dict['HOME_TEAM_ID'] is not None:
+                _home_team = Team.Team()
+                _home_team.id = dict['HOME_TEAM_ID']
+                _home_team.findTeamById()
+                self.home_team = _home_team
+            if dict['AWAY_TEAM_ID'] is not None: 
+                _away_team = Team.Team()
+                _away_team.id = dict['AWAY_TEAM_ID']
+                _away_team.findTeamById()
+                self.away_team = _away_team
+            if dict['HOME_TEAM_SCORE'] is not None:
+                self.home_team_score = dict['HOME_TEAM_SCORE']
+            if dict['AWAY_TEAM_SCORE'] is not None:
+                self.away_team_score = dict['AWAY_TEAM_SCORE']
+            if dict['WINNING_TEAM_ID'] is not None:     
+                _winning_team = Team.Team()
+                _winning_team.id = dict['WINNING_TEAM_ID']
+                _winning_team.findTeamById()
+                self.winning_team = _winning_team
+            if dict['LOSING_TEAM_ID'] is not None:     
+                _losing_team = Team.Team()
+                _losing_team.id = dict['LOSING_TEAM_ID']
+                _losing_team.findTeamById()
+                self.losing_team = _losing_team

@@ -6,6 +6,7 @@ class Team(object):
     find_by_spread_query = 'SELECT * FROM TEAM t WHERE t.SPREAD_NAME = %s'
     update_team_query = 'UPDATE TEAM SET SPREAD_NAME = %s, SCHEDULE_NAME = %s, WINS = %s, LOSSES = %s, ATS_WINS = %s, ATS_LOSSES = %s WHERE TEAM_ID = %s'
     insert_team_query = 'INSERT TEAM (SPREAD_NAME, SCHEDULE_NAME, WINS, LOSSES, ATS_WINS, ATS_LOSSES) VALUES (%s, %s, %s, %s, %s, %s)'
+    find_by_id = 'SELECT * FROM TEAM WHERE TEAM_ID = %s'
 
     def __init__(self):
         self.id = 0
@@ -67,6 +68,32 @@ class Team(object):
                 pass
             finally:
                 connection.close()
+
+    def findTeamById(self):
+        connection = None
+
+        try:
+            print ('findTeamById: ' + str(self.id))
+            if self.id is not None:
+                connection = connection_settings.createConnection()
+                
+                with connection.cursor() as cursor:
+
+                    cursor.execute(self.find_by_id,(self.id))
+                    result = cursor.fetchone()
+                    print (result)
+                    if result == None:
+                        raise RuntimeError('Error in findTeamById: \'results\' == None for TEAM_ID:  ' + self.id)
+                    self.createTeamFromResults(result)
+        
+        except Exception as e:
+            print('Error in findTeamById: ' + str(e))
+            pass
+        finally:
+                if connection is not None:
+                    connection.close()
+                
+
     def updateTeam(self):
         try:
             if self.id is not 0:
