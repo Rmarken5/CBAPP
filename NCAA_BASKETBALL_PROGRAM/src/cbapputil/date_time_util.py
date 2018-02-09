@@ -1,7 +1,18 @@
 from datetime import datetime
 
+def getTimeObjFromDTString(input):
+
+    if input is not None and ':' in input and ' ' in input:
+        date_time_parts = input.split(' ')
+        if len(date_time_parts) > 1:
+            time_string = date_time_parts[1]
+            timeObject = datetime.strptime(time_string, '%H:%M').time()
+            return timeObject
+    return None        
+
 def getTimeObjectFromString(input):
-    
+    print ('getTimeObjectFromString: ' +  input)
+    #2018-02-08 19:20
     if ':' in input:
         time_pieces = input.split(':')
         # time_string = time_pieces[1]

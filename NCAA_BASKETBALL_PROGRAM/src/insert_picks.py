@@ -19,10 +19,10 @@ def main():
 
 def getPickFromGame(game):
     pick = None
-    if game != None:
+    if game != None and game.period != None and game.period.period_description == 'Game':
         pick = Pick.Pick()
         pick.game_date = dtu.getDateObjectFromString(game.event_datetime)
-        pick.game_time = dtu.getTimeObjectFromString(game.event_datetime)
+        pick.game_time = dtu.getTimeObjFromDTString(game.event_datetime)
         
         team_one = getTeamFromParticipant(game.participant_one.participant_name)
         team_two = getTeamFromParticipant(game.participant_two.participant_name)
