@@ -77,9 +77,11 @@ def main():
                             pick.picked_correctly = True
                         else:
                             pick.picked_correctly = False
-            home_team.updateTeam()
-            away_team.updateTeam()
-            pick.updatePick()                       
+            # print(home_team.spread_name + '\n')
+            # print(away_team.spread_name + '\n')
+                home_team.updateTeam()
+                away_team.updateTeam()
+                pick.updatePick()                       
 
 
 

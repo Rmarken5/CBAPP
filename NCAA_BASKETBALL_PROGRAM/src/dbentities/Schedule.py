@@ -118,16 +118,17 @@ class Schedule(object):
 
                 with connection.cursor() as cursor:
                     
-                    cursor.execute(self.update_schedule_sql,(self.home_team_score, self.away_team_score, self.winning_team.id, self.losing_team.id, self.home_team.id, self.away_team.id, self.game_date) )
+                    cursor.execute(self.update_schedule_sql,(self.home_team_score, self.away_team_score, self.winning_team.id, self.losing_team.id, self.home_team.id, self.away_team.id, self.game_date.date()) )
                     connection.commit()
-                    print('game updated for schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d'))
-
+                    print(cursor._last_executed)
+                    #print('game updated for schedule table: ' + self.away_team.schedule_name + ' @ ' + self.home_team.schedule_name + ' ' + datetime.datetime.strftime(self.game_date, '%Y/%m/%d')  + str(self.winning_team.id) + str(self.losing_team.id) )
+                    connection.close()
             
             
         except Exception as e:
             print('Issue in updateSchedule: \n' + str(e) + '\n' + 'home team schedule name: ' + self.home_team.schedule_name)
-        finally:
-            connection.close()
+        
+            
 
     def findScheduleByDateTeams(self):
 

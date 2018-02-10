@@ -1,178 +1,206 @@
-Wisc Green Bay
-Wright State
-Wisc Milwaukee
-Northern Kentucky
+Fordham
+Duquesne
+Temple
+South Florida
+Oklahoma State
+West Virginia
+Butler
+Villanova
+Northwestern
+Maryland
+Marquette
+St. Johns
+Florida
+South Carolina
 Youngstown State
-Illinois Chicago
-Old Dominion
-Southern Miss
-Charlotte U
-Louisiana Tech
-Stanford
-Utah
-Duke
+IUPUI
+Mississippi State
+Missouri
+Central Michigan
+Akron
+Loyola Chicago
+Indiana State
+Delaware
+William andamp; Mary
+Miami Florida
+Boston College
+Kansas
+Baylor
+Texas
+TCU
+Oklahoma
+Iowa State
+Northeastern
+Towson
 North Carolina
-North Texas
-UAB
-Florida Intl
-Marshall
-Arkansas Little Rock
-South Alabama
-Arkansas State
-Troy
-Florida Atlantic
-Western Kentucky
-Southern Illinois
-Illinois State
-Wisconsin
-Illinois
-SMU
-Houston
-Portland
-San Francisco
-Gonzaga
-Pacific
-Saint Marys CA
-Loyola Marymount
-Cal Poly SLO
-CS Fullerton
-Cal Santa Barbara
-UC Davis
-UCLA
-Arizona
-Washington
-Oregon
-Washington State
-Oregon State
+NC State
+UL - Monroe
+Georgia State
+Xavier
+Creighton
+Evansville
+Missouri State
+Appalachian State
+Coastal Carolina
+Auburn
+Georgia
+Kentucky
+Texas AandM
+Connecticut
+Wichita State
+Mississippi
+LSU
+Eastern Michigan
+Bowling Green
+Northern Iowa
+Drake
+New Mexico
+Air Force
+Drexel
+Coll Of Charleston
+Depaul
+Providence
+Richmond
+St. Bonaventure
+Massachusetts
+St. Josephs
+George Washington
+George Mason
+Florida State
+Notre Dame
+Rutgers
+Nebraska
+Seton Hall
+Georgetown
+San Jose State
+Colorado State
 San Diego
-Pepperdine
 Santa Clara
+San Francisco
 BYU
-USC
+Arkansas State
+South Alabama
+Buffalo
+Northern Illinois
+Ohio
+Western Michigan
+UL - Lafayette
+Georgia Southern
+Arkansas Little Rock
+Troy
+Texas State
+UT Arlington
+Charlotte U
+Southern Miss
+Tennessee
+Alabama
+Iowa
+Ohio State
+Purdue
+Michigan State
+Virginia Tech
+Virginia
+Dayton
+Va Commonwealth
+North Texas
+Middle Tenn St
+Pepperdine
+Loyola Marymount
+Florida Intl
+Western Kentucky
+Florida Atlantic
+Marshall
+UCLA
 Arizona State
-SE Missouri State
-Morehead State
-Eastern Illinois
-SIU Edwardsville
-Tennessee Martin
-Eastern Kentucky
-Western Illinois
-Nebraska Omaha
-IPFW
-South Dakota
-North Dakota State
-Oral Roberts
-Belmont
-Tennessee State
-Portland State
-Montana
-Sacramento State
-Montana State
-Tennessee Tech
-Jacksonville State
-North Dakota
-Weber State
-South Dakota State
-Denver
-No. Colorado
-Idaho State
-Pennsylvania
-Dartmouth
-Princeton
-Harvard
-Cornell
-Brown
-Columbia
-Yale
-Davidson
-Rhode Island
-Minnesota
-Indiana
-Detroit
-Oakland
-Eastern Washington
-Idaho
-Toledo
-Miami Ohio
-Kent State
-Ball State
 Wisc Green Bay
-Wright State
-Wisc Milwaukee
 Northern Kentucky
-Youngstown State
-Illinois Chicago
+Wisc Milwaukee
+Wright State
 Old Dominion
-Southern Miss
-Charlotte U
 Louisiana Tech
-Stanford
-Utah
-Duke
-North Carolina
-North Texas
+Hofstra
+NC Wilmington
+Rice
 UAB
-Florida Intl
-Marshall
-Arkansas Little Rock
-South Alabama
-Arkansas State
-Troy
-Florida Atlantic
-Western Kentucky
-Southern Illinois
-Illinois State
-Wisconsin
-Illinois
-SMU
-Houston
-Portland
-San Francisco
-Gonzaga
-Pacific
-Saint Marys CA
-Loyola Marymount
-Cal Poly SLO
 CS Fullerton
-Cal Santa Barbara
 UC Davis
-UCLA
-Arizona
+Cal Irvine
+Cal Riverside
+Cleveland State
+Illinois Chicago
+San Diego State
+Nevada
+Wyoming
+UNLV
+Texas Tech
+Kansas State
+La Salle
+Saint Louis
+Vanderbilt
+Arkansas
+Texas San Antonio
+UTEP
+Boise State
+Utah State
+California
+Utah
 Washington
-Oregon
-Washington State
 Oregon State
-San Diego
-Pepperdine
-Santa Clara
-BYU
+Portland
+Pacific
+Gonzaga
+Saint Marys CA
 USC
-Arizona State
-SE Missouri State
-Morehead State
-Eastern Illinois
+Arizona
+Cal Poly SLO
+Long Beach State
+CS Northridge
+Hawaii
+Iona
+St. Peter's
+East Tenn State
+VMI
+Murray State
 SIU Edwardsville
-Tennessee Martin
-Eastern Kentucky
-Western Illinois
-Nebraska Omaha
-IPFW
-South Dakota
+Quinnipiac
+Canisius
+Fairfield
+Niagara
 North Dakota State
-Oral Roberts
-Belmont
-Tennessee State
-Portland State
-Montana
-Sacramento State
-Montana State
-Tennessee Tech
-Jacksonville State
-North Dakota
-Weber State
-South Dakota State
 Denver
-No. Colorado
+Southern Utah
+Northern Arizona
+Portland State
+Montana State
+Austin Peay
+Eastern Illinois
+Wofford
+Furman
+Western Carolina
+NC Greensboro
+Mercer
+Tenn Chattanooga
+SE Missouri State
+Tennessee Martin
+Morehead State
+Eastern Kentucky
+Monmouth
+Manhattan
+Rider
+Marist
+IPFW
+Nebraska Omaha
+Tennessee State
+Jacksonville State
+South Dakota State
+Oral Roberts
+The Citadel
+Samford
+Belmont
+Tennessee Tech
+Sacramento State
+Montana
+North Dakota
 Idaho State
-Charlotte U
-Louisiana Tech
+No. Colorado
+Weber State

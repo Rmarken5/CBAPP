@@ -1,0 +1,4 @@
+Insert new entries for todays date - populate_schedule.py
+Insert new entries for picks - insert_picks.py
+Update yesterday's schedule with score - update_schedule_previous_day.py
+Update yesterday's picks based on scores - update_pick_previous_day.py
