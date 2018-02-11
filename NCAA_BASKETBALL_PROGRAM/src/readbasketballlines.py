@@ -7,6 +7,8 @@ import urllib.request as request
 import os
 import xml.etree.ElementTree as ET
 from livelineentities import *
+from datetime import datetime
+from cbapputil import date_time_util as dtu
 
 ncaa_name = "NCAA Basketball"
 
@@ -15,40 +17,42 @@ def parseXML(url):
 
     opener = request.build_opener()
     resp = opener.open(url)
-    print(resp)
+    
     tree = ET.parse(resp)
-    print(tree)
+    
     root = tree.getroot()
     i = 0
     events = []
     fh = openFile()
-    print(root.text)
+   
+    
     for line_event in root.findall('event'):
         league = line_event.find('league').text
 
         if checkLeagueForNCAA(league):
-            print('There\'s one')
-            print('iteration: ', i)
+            
             event = createEvent(line_event)
-            printEvent(event,fh)
-            events.append(event)
+            if(event is not None):
+                printEvent(event,fh)
+                events.append(event)
+    fh.close()
     return events
 			
 def openFile():
    cur_dir = os.path.dirname(__file__)
-   print(cur_dir)
+   #print(cur_dir)
    if not os.path.exists(cur_dir + '/' + 'output-files'):
        os.makedirs(cur_dir+'/'+'output-files')
    rel_dir_file = os.path.join(cur_dir, 'output-files/teams_from_feed.txt')
-   print(rel_dir_file)
+   #print(rel_dir_file)
    return open(rel_dir_file,"w")
 	
 def printEvent(event, file_handler):
     participant_one = event.participant_one
     participant_two = event.participant_two
 
-    print(participant_one.participant_name)
-    print(participant_two.participant_name)
+    #print(participant_one.participant_name)
+    #print(participant_two.participant_name)
     file_handler.write(participant_one.participant_name + '\n')
     file_handler.write(participant_two.participant_name + '\n')	
 			
@@ -61,22 +65,26 @@ def checkLeagueForNCAA(leaguename):
 def createEvent(line_event):
     event = Event()
     event.event_datetime = line_event.find('event_datetimeGMT').text
-    event.sport_type = line_event.find('sporttype').text
-    event.schedule_text = line_event.find('scheduletext').text
-    event.league = line_event.find('league').text
-    line_participants = line_event.findall('participant')
-    if len(line_participants) > 1:
-        part_one = line_participants[0]
-        part_two = line_participants[1]
-        participant_one = createParticipant(part_one)
-        participant_two = createParticipant(part_two)
-		
-        event.participant_one = participant_one
-        event.participant_two = participant_two
-    
-    period = createPeriod(line_event)
-    event.period = period
-    return event
+    print ('date now: ' + str(datetime.now().date()))
+    print ('game date: ' + str(dtu.getDateObjectFromString(event.event_datetime)))
+    if(datetime.now().date() == dtu.getDateObjectFromString(event.event_datetime)):
+        event.sport_type = line_event.find('sporttype').text
+        event.schedule_text = line_event.find('scheduletext').text
+        event.league = line_event.find('league').text
+        line_participants = line_event.findall('participant')
+        if len(line_participants) > 1:
+            part_one = line_participants[0]
+            part_two = line_participants[1]
+            participant_one = createParticipant(part_one)
+            participant_two = createParticipant(part_two)
+    		
+            event.participant_one = participant_one
+            event.participant_two = participant_two
+        
+        period = createPeriod(line_event)
+        event.period = period
+        return event
+    return None
 
 
 def createParticipant(line_participant):

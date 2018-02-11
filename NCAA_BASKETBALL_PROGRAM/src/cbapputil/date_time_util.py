@@ -45,7 +45,7 @@ def getDateObjectFromString(input):
     if len(input.split('-')) == 3:
         date_parts = input.split(' ')
         date = date_parts[0]
-        date_object = datetime.strptime(date, '%Y-%m-%d')
+        date_object = datetime.strptime(date, '%Y-%m-%d').date()
         return date_object
 	
 if __name__ == '__main__':
