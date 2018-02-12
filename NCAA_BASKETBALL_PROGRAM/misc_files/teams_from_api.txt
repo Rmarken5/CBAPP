@@ -18,3 +18,23 @@ Tulane
 Valparaiso
 Wagner
 Washington State
+Baylor
+Bucknell
+Canisius
+Colgate
+Delaware State
+East Tenn State
+Fairfield
+Iona
+Jackson State
+Mercer
+NC Greensboro
+Norfolk State
+North Carolina
+Notre Dame
+Prairie View AandM
+Samford
+Siena
+TCU
+Texas
+West Virginia

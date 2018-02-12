@@ -47,11 +47,11 @@ def main():
                 log.write(str(datetime.datetime.now()) + ' - ' + 'Ommiting, team already in file: ' + team + '\n' )
         for team in teams_to_write:
             log.write(str(datetime.datetime.now()) + ' - ' + 'Writing team to file: ' + team  + '\n')
-    log.close()
+        log.close()
 
     with open(os.path.join(file_dir,'../misc_files/teams_from_html.txt') ,'a+' ) as team_file:
         for team in teams_to_write:
-            log.write(team + '\n')
+            team_file.write(team + '\n')
     team_file.close()
 
 

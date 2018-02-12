@@ -40,3 +40,23 @@
 2018-02-11 13:43:38.230982 - Omitting team from file: Washington State
 2018-02-11 19:02:38.343448 - Omitting team from file: Oregon
 2018-02-11 19:02:38.343448 - Omitting team from file: Washington State
+2018-02-12 17:46:59.208057 - Writing team to file: Baylor
+2018-02-12 17:46:59.208057 - Writing team to file: Bucknell
+2018-02-12 17:46:59.208057 - Writing team to file: Canisius
+2018-02-12 17:46:59.208057 - Writing team to file: Colgate
+2018-02-12 17:46:59.208057 - Writing team to file: Delaware State
+2018-02-12 17:46:59.208057 - Writing team to file: East Tenn State
+2018-02-12 17:46:59.208057 - Writing team to file: Fairfield
+2018-02-12 17:46:59.208057 - Writing team to file: Iona
+2018-02-12 17:46:59.208057 - Writing team to file: Jackson State
+2018-02-12 17:46:59.208057 - Writing team to file: Mercer
+2018-02-12 17:46:59.208057 - Writing team to file: NC Greensboro
+2018-02-12 17:46:59.208057 - Writing team to file: Norfolk State
+2018-02-12 17:46:59.208057 - Writing team to file: North Carolina
+2018-02-12 17:46:59.208057 - Writing team to file: Notre Dame
+2018-02-12 17:46:59.208057 - Writing team to file: Prairie View AandM
+2018-02-12 17:46:59.208057 - Writing team to file: Samford
+2018-02-12 17:46:59.208057 - Writing team to file: Siena
+2018-02-12 17:46:59.208057 - Writing team to file: TCU
+2018-02-12 17:46:59.208057 - Writing team to file: Texas
+2018-02-12 17:46:59.208057 - Writing team to file: West Virginia

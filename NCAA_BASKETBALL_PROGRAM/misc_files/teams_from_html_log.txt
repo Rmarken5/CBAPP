@@ -70,3 +70,75 @@
 2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wake Forest
 2018-02-11 19:06:24.208217 - Ommiting, team already in file: Washington St.
 2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wisconsin
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Alcorn State
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Ark.-Pine Bluff
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Baylor
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Bethune-Cookman
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Canisius
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: East Tenn. St.
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Fairfield
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Florida A&M
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Grambling
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Hampton
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Iona
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Jackson State
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Md.-East. Shore
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Mercer
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Miss. Valley St.
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Morgan State
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: N.C. A&T
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: N.C. Central
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Norfolk State
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: North Carolina
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Notre Dame
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Prairie View A&M
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Samford
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Savannah State
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Southern Univ.
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: TCU
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Texas
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: Texas Southern
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: UNC-Greensboro
+2018-02-12 17:41:06.662886 - Ommiting, team already in file: West Virginia
+2018-02-12 17:41:06.662886 - Writing team to file: Bucknell
+2018-02-12 17:41:06.662886 - Writing team to file: Colgate
+2018-02-12 17:41:06.662886 - Writing team to file: Coppin State
+2018-02-12 17:41:06.662886 - Writing team to file: Delaware State
+2018-02-12 17:41:06.662886 - Writing team to file: Howard
+2018-02-12 17:41:06.662886 - Writing team to file: Siena
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Alcorn State
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Ark.-Pine Bluff
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Baylor
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Bethune-Cookman
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Canisius
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: East Tenn. St.
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Fairfield
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Florida A&M
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Grambling
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Hampton
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Iona
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Jackson State
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Md.-East. Shore
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Mercer
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Miss. Valley St.
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Morgan State
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: N.C. A&T
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: N.C. Central
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Norfolk State
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: North Carolina
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Notre Dame
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Prairie View A&M
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Samford
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Savannah State
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Southern Univ.
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: TCU
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Texas
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: Texas Southern
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: UNC-Greensboro
+2018-02-12 17:42:21.734762 - Ommiting, team already in file: West Virginia
+2018-02-12 17:42:21.734762 - Writing team to file: Bucknell
+2018-02-12 17:42:21.734762 - Writing team to file: Colgate
+2018-02-12 17:42:21.734762 - Writing team to file: Coppin State
+2018-02-12 17:42:21.734762 - Writing team to file: Delaware State
+2018-02-12 17:42:21.734762 - Writing team to file: Howard
+2018-02-12 17:42:21.734762 - Writing team to file: Siena
