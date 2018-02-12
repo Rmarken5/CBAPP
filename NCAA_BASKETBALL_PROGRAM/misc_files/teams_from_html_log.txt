@@ -1,0 +1,72 @@
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Albany
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Bradley
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Cincinnati
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Colorado
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Duke
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Fairleigh D'son
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Georgia Tech
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Hartford
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Houston
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Illinois
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Illinois State
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Lafayette
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Louisville
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Loyola (Md.)
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Maine
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Mass.-Lowell
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Memphis
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Michigan
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: New Hampshire
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Oregon
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Penn St.
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Pittsburgh
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: SMU
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Southern Ill.
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Stanford
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Stony Brook
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Syracuse
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Tulane
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: UCF
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: UMBC
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Valparaiso
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Vermont
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Wagner
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Wake Forest
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Washington St.
+2018-02-11 13:43:01.287846 - Ommiting, team already in file: Wisconsin
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Albany
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Bradley
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Cincinnati
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Colorado
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Duke
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Fairleigh D'son
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Georgia Tech
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Hartford
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Houston
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Illinois
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Illinois State
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Lafayette
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Louisville
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Loyola (Md.)
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Maine
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Mass.-Lowell
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Memphis
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Michigan
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: New Hampshire
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Oregon
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Penn St.
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Pittsburgh
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: SMU
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Southern Ill.
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Stanford
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Stony Brook
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Syracuse
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Tulane
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: UCF
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: UMBC
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Valparaiso
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Vermont
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wagner
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wake Forest
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Washington St.
+2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wisconsin

@@ -10,15 +10,16 @@ def main():
     games = rl.main()
     picks = []
     teams_from_file = []
-    if os.path.isfile('/home/pegasus/python_workspace/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_api.txt'):
-        with open('/home/pegasus/python_workspace/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_api.txt' ,'r+' ) as team_file:
+    file_dir = os.path.dirname(os.path.realpath('__file__'))
+    if os.path.isfile(os.path.join(file_dir,'../misc_files/teams_from_api.txt')):
+        with open(os.path.join(file_dir,'../misc_files/teams_from_api.txt') ,'r+' ) as team_file:
         #open('/home/pegasus/python_workspace/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_api_log.txt' ,'a+') as log:
             
             teams_from_file = [x.strip('\n') for x in team_file.readlines()]
             
             
         team_file.close()
-    with open('/home/pegasus/python_workspace/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_api_log.txt' ,'a+') as log:
+    with open(os.path.join(file_dir,'../misc_files/teams_from_api_log.txt'),'a+') as log:
         teams_from_game = []
         for game in games:
             if game is not None and game.period.period_description == 'Game':
@@ -32,7 +33,7 @@ def main():
             else:
                 log.write(str(datetime.now()) + ' - ' + 'Omitting team from file: ' + sorted_team + '\n')
     log.close()
-    with open('/home/pegasus/python_workspace/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_api.txt' ,'a+' ) as team_file:
+    with open(os.path.join(file_dir,'../misc_files/teams_from_api.txt'),'a+' ) as team_file:
             for team in picks:
                 team_file.write(team + '\n')
     team_file.close()

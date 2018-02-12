@@ -41,6 +41,12 @@ def main():
                 home_score = schedule.home_team_score
                 away_score = schedule.away_team_score
                 difference = home_score - away_score
+                if difference > 0:
+                    home_team.wins += 1
+                    away_team.losses -= 1
+                else:
+                    away_team.wins += 1
+                    home_team.losses -= 1
                 if spread > 0: #Away Team is favored
                     if difference > 0 or math.fabs(difference) < spread: #Home team won outright or away team didn't cover spread.
 

@@ -5,14 +5,13 @@ import datetime
 import pymysql.cursors
 from cbapputil import date_time_util as dtu
 from dbentities import *
+import os.path
 
 connSettings = []
 connection = None
 
 def main():
-    f = openFile()
-    teams_from_file = getTeamsFromFile(f)
-
+    file_dir = os.path.dirname(os.path.realpath('__file__'))
     url = 'http://www.ncaa.com/scoreboard/basketball-men/d1'
     year = str(datetime.date.today().year)
     if(datetime.date.today().month < 10):
@@ -28,17 +27,33 @@ def main():
     url = url + '/' + date
     r = requests.get(url)
     result = r.text
-    lineNum = 0
-    games = []
     games = getAllGames(result,datetime.date.today())
     teams = []
+    teams_to_write = []
     for game in games:
         teams.append(game.home_team.schedule_name)
         teams.append(game.away_team.schedule_name)
-    for team in sorted(teams):
-        if team not in teams_from_file:
-            f.write(team + '\n')
-    f.close()
+    teams_from_file = []
+    if os.path.isfile(os.path.join(file_dir,'../misc_files/teams_from_html.txt')):
+        with open(os.path.join(file_dir,'../misc_files/teams_from_html.txt') ,'r+' ) as team_file:
+             teams_from_file = [x.strip('\n') for x in team_file.readlines()]
+        team_file.close()
+
+    with open(os.path.join(file_dir,'../misc_files/teams_from_html_log.txt') ,'a+' ) as log:
+        for team in sorted(teams):
+            if team not in teams_from_file:
+                teams_to_write.append(team)
+            else:
+                log.write(str(datetime.datetime.now()) + ' - ' + 'Ommiting, team already in file: ' + team + '\n' )
+        for team in teams_to_write:
+            log.write(str(datetime.datetime.now()) + ' - ' + 'Writing team to file: ' + team  + '\n')
+    log.close()
+
+    with open(os.path.join(file_dir,'../misc_files/teams_from_html.txt') ,'a+' ) as team_file:
+        for team in teams_to_write:
+            log.write(team + '\n')
+    team_file.close()
+
 
 
 def getAllGames(html,date):

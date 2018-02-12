@@ -1,136 +1,20 @@
-Alabama
-Arizona
-Arizona State
-Arkansas
-Arkansas Little Rock
-Belmont
-Boise State
 Bradley
-Brown
-CS Fullerton
-CS Northridge
-Cal Irvine
-Cal Poly SLO
-Cal Riverside
-California
 Central Florida
-Charlotte U
 Cincinnati
-Cleveland State
 Colorado
-Columbia
-Connecticut
-Cornell
-Dartmouth
-Dayton
 Duke
-Eastern Kentucky
 Fairleigh Dickinson
-Florida Atlantic
-Florida Intl
-Georgia Southern
 Georgia Tech
-Gonzaga
-Hawaii
-Hofstra
 Houston
-IPFW
-Idaho State
 Illinois
-Illinois Chicago
 Illinois State
-Iowa
-Jacksonville State
-Kansas State
-Kentucky
-La Salle
-Lafayette
-Long Beach State
-Louisiana Tech
-Louisville
-Loyola Maryland
-Loyola Marymount
-Manhattan
-Marist
-Marshall
 Memphis
-Mercer
-Michigan
-Middle Tenn St
-Monmouth
-Montana
-Morehead State
-NC Greensboro
-NC Wilmington
-Nebraska Omaha
-Nevada
-No. Colorado
-North Dakota
-North Texas
-Northern Kentucky
-Ohio State
-Old Dominion
-Oral Roberts
 Oregon
-Oregon State
-Pacific
 Penn State
-Pepperdine
-Pittsburgh
-Portland
-Princeton
-Rice
-Rider
-SE Missouri State
 SMU
-Sacramento State
-Saint Louis
-Saint Marys CA
-Samford
-San Diego State
-South Dakota State
 Southern Illinois
-Southern Miss
 Stanford
-Syracuse
-Tenn Chattanooga
-Tennessee
-Tennessee Martin
-Tennessee State
-Tennessee Tech
-Texas Aandamp;M
-Texas San Antonio
-Texas State
-Texas Tech
-The Citadel
-Troy
 Tulane
-UAB
-UC Davis
-UCLA
-UL - Lafayette
-UNLV
-USC
-UT Arlington
-UTEP
-Utah
-Utah State
-Va Commonwealth
 Valparaiso
-Vanderbilt
-Virginia
-Virginia Tech
 Wagner
-Wake Forest
-Washington
 Washington State
-Weber State
-Western Carolina
-Western Kentucky
-Wichita State
-Wisc Green Bay
-Wisc Milwaukee
-Wisconsin
-Wright State
-Wyoming
-Yale

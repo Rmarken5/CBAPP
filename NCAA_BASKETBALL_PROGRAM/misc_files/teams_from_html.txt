@@ -306,3 +306,39 @@ Wyoming
 Xavier
 Yale
 Youngstown St.
+Albany
+Bradley
+Cincinnati
+Colorado
+Duke
+Fairleigh D'son
+Georgia Tech
+Hartford
+Houston
+Illinois
+Illinois State
+Lafayette
+Louisville
+Loyola (Md.)
+Maine
+Mass.-Lowell
+Memphis
+Michigan
+New Hampshire
+Oregon
+Penn St.
+Pittsburgh
+SMU
+Southern Ill.
+Stanford
+Stony Brook
+Syracuse
+Tulane
+UCF
+UMBC
+Valparaiso
+Vermont
+Wagner
+Wake Forest
+Washington St.
+Wisconsin

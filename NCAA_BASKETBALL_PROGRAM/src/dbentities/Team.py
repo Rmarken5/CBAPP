@@ -96,7 +96,7 @@ class Team(object):
 
     def updateTeam(self):
         try:
-            if self.id is not 0:
+            if self.id is not 0 and self.spread_name is not '' and self.schedule_name is not '':
                
                 connection = connection_settings.createConnection()
                     

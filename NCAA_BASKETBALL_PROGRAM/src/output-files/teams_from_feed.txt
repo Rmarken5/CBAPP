@@ -1,56 +1,6 @@
-Wake Forest
-Syracuse
-Michigan
-Wisconsin
-Louisville
-Pittsburgh
-Central Florida
-Memphis
-Bradley
-Southern Illinois
-Illinois State
-Valparaiso
-Stanford
-Colorado
-Cincinnati
-SMU
-Tulane
-Houston
-Duke
-Georgia Tech
-Penn State
-Illinois
 Washington State
 Oregon
-Loyola Maryland
-Lafayette
-Wagner
-Fairleigh Dickinson
-Wake Forest
-Syracuse
-Michigan
-Wisconsin
-Louisville
-Pittsburgh
-Central Florida
-Memphis
-Bradley
-Southern Illinois
-Illinois State
-Valparaiso
-Stanford
-Colorado
-Cincinnati
-SMU
-Tulane
-Houston
-Duke
-Georgia Tech
-Penn State
-Illinois
 Washington State
 Oregon
-Loyola Maryland
-Lafayette
-Wagner
-Fairleigh Dickinson
+Duke
+Georgia Tech
