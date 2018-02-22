@@ -1,40 +1,148 @@
-Notre Dame
+Xavier
+Georgetown
+Seton Hall
+Providence
+Georgia
+South Carolina
+Evansville
+Indiana State
+Va Commonwealth
+Massachusetts
+George Mason
+St. Josephs
+Michigan
+Penn State
+Texas Tech
+Oklahoma State
+Richmond
+George Washington
+Fordham
+Davidson
 North Carolina
+Syracuse
+Duquesne
+St. Bonaventure
+Georgia Tech
+Virginia
+Clemson
+Virginia Tech
+SMU
+East Carolina
+Tulane
+Wichita State
+Drake
+Illinois State
+Loyola Chicago
+Southern Illinois
 TCU
-West Virginia
-Baylor
+Iowa State
+Bradley
+Missouri State
+Alabama
+Auburn
+Depaul
+Villanova
+St. Johns
+Marquette
 Texas
-Iona
-Siena
-Fairfield
+Kansas State
+Wake Forest
+Pittsburgh
+Central Florida
+Tulsa
+Louisville
+Duke
+Iowa
+Minnesota
+Florida
+Tennessee
+Boise State
+Colorado State
+San Diego State
+Air Force
+CS Fullerton
+Cal Riverside
+Fresno State
+UNLV
+San Jose State
+Nevada
+USC
+Colorado
 Canisius
-East Tenn State
-NC Greensboro
-Mercer
-Samford
-Colgate
-Bucknell
-Delaware State
-Norfolk State
-Jackson State
-Prairie View AandM
-Notre Dame
+Niagara
+Fairfield
+Siena
+Xavier
+Georgetown
+Seton Hall
+Providence
+Georgia
+South Carolina
+Evansville
+Indiana State
+Va Commonwealth
+Massachusetts
+George Mason
+St. Josephs
+Michigan
+Penn State
+Texas Tech
+Oklahoma State
+Richmond
+George Washington
+Fordham
+Davidson
 North Carolina
+Syracuse
+Duquesne
+St. Bonaventure
+Georgia Tech
+Virginia
+Clemson
+Virginia Tech
+SMU
+East Carolina
+Tulane
+Wichita State
+Drake
+Illinois State
+Loyola Chicago
+Southern Illinois
 TCU
-West Virginia
-Baylor
+Iowa State
+Bradley
+Missouri State
+Alabama
+Auburn
+Depaul
+Villanova
+St. Johns
+Marquette
 Texas
-Iona
-Siena
-Fairfield
+Kansas State
+Wake Forest
+Pittsburgh
+Central Florida
+Tulsa
+Louisville
+Duke
+Iowa
+Minnesota
+Florida
+Tennessee
+Boise State
+Colorado State
+San Diego State
+Air Force
+CS Fullerton
+Cal Riverside
+Fresno State
+UNLV
+San Jose State
+Nevada
+USC
+Colorado
 Canisius
-East Tenn State
-NC Greensboro
-Mercer
-Samford
-Colgate
-Bucknell
-Delaware State
-Norfolk State
-Jackson State
-Prairie View Aandamp;M
+Niagara
+Fairfield
+Siena

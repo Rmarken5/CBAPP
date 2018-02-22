@@ -41,9 +41,9 @@ def main():
 def getPicks(date):
 
 	try:
-		coonnection = connection_settings.createConnection()
+		connection = connection_settings.createConnection()
 
-		with coonnection.cursor() as cursor:
+		with connection.cursor() as cursor:
 			cursor.execute(pick_query,(date))
 			picks = cursor.fetchall()
 			print(picks)

@@ -38,3 +38,224 @@ Siena
 TCU
 Texas
 West Virginia
+Bowling Green
+Brown
+Buffalo
+Cleveland State
+Columbia
+Cornell
+Dartmouth
+Detroit
+Georgia Southern
+Georgia State
+Harvard
+IUPUI
+Illinois Chicago
+Monmouth
+Niagara
+Northern Kentucky
+Oakland
+Pennsylvania
+Princeton
+Rhode Island
+St. Bonaventure
+Wisc Green Bay
+Wisc Milwaukee
+Wright State
+Yale
+Youngstown State
+Air Force
+Akron
+Alabama
+Appalachian State
+Arkansas
+Arkansas Little Rock
+Arkansas State
+Auburn
+Austin Peay
+BYU
+Ball State
+Belmont
+Boise State
+Boston College
+Boston U
+Butler
+CS Fullerton
+CS Northridge
+Cal Irvine
+Cal Poly SLO
+Cal Riverside
+Cal Santa Barbara
+Central Michigan
+Charlotte U
+Coastal Carolina
+Coll Of Charleston
+Colorado State
+Creighton
+Davidson
+Dayton
+Delaware
+Drexel
+Duquesne
+Eastern Illinois
+Eastern Kentucky
+Eastern Michigan
+Eastern Washington
+Elon
+Florida
+Florida Atlantic
+Florida Intl
+Fordham
+Fresno State
+Furman
+George Mason
+George Washington
+Georgia
+Gonzaga
+Hawaii
+Hofstra
+IPFW
+Idaho
+Idaho State
+Indiana
+Indiana State
+Iowa
+Iowa State
+Jacksonville State
+James Madison
+Kansas
+Kansas State
+Kent State
+Kentucky
+LSU
+La Salle
+Louisiana Tech
+Louisville
+Loyola Marymount
+Marist
+Marquette
+Marshall
+Maryland
+Massachusetts
+Miami Florida
+Miami Ohio
+Michigan State
+Middle Tenn St
+Mississippi
+Mississippi State
+Missouri
+Montana
+Montana State
+Morehead State
+Murray State
+NC State
+NC Wilmington
+Navy
+Nebraska Omaha
+Nevada
+No. Colorado
+North Dakota
+North Dakota State
+North Texas
+Northeastern
+Northern Arizona
+Northern Illinois
+Northern Iowa
+Northwestern
+Ohio
+Oklahoma
+Oklahoma State
+Old Dominion
+Oregon State
+Pacific
+Pepperdine
+Portland
+Portland State
+Providence
+Quinnipiac
+Rice
+Richmond
+Rutgers
+SE Missouri State
+SIU Edwardsville
+Sacramento State
+Saint Louis
+Saint Marys CA
+San Diego
+San Diego State
+San Francisco
+San Jose State
+Santa Clara
+South Alabama
+South Carolina
+South Dakota
+South Dakota State
+Southern Miss
+Southern Utah
+St. Josephs
+St. Peter's
+Syracuse
+Tenn Chattanooga
+Tennessee
+Tennessee Martin
+Tennessee State
+Tennessee Tech
+Texas Aandamp;M
+Texas San Antonio
+Texas State
+Texas Tech
+The Citadel
+Toledo
+Towson
+Troy
+UAB
+UC Davis
+UCLA
+UL - Lafayette
+UL - Monroe
+UNLV
+USC
+UT Arlington
+UTEP
+Utah
+Utah State
+VMI
+Va Commonwealth
+Vanderbilt
+Villanova
+Virginia Tech
+Wake Forest
+Washington
+Weber State
+Western Carolina
+Western Illinois
+Western Kentucky
+Western Michigan
+William and Mary
+Wofford
+Wyoming
+Xavier
+California
+Florida State
+Pittsburgh
+Purdue
+Alabama State
+Alcorn State
+Howard
+Minnesota
+North Carolina Central
+Wisconsin
+Clemson
+Depaul
+Drake
+East Carolina
+Evansville
+Georgetown
+Loyola Chicago
+Michigan
+Missouri State
+Seton Hall
+St. Johns
+Tulsa
+Virginia
+Wichita State

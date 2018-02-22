@@ -2,6 +2,7 @@ import readbasketballlines as rl
 from dbentities import Pick
 from dbentities import Team
 from cbapputil import date_time_util as dtu
+import send_picks
 
 def main():
 
@@ -15,7 +16,9 @@ def main():
     for pick in picks:
         if pick is not None:
             pick.insertPick()
-		
+	
+    send_picks.main()
+
 
 def getPickFromGame(game):
     pick = None
