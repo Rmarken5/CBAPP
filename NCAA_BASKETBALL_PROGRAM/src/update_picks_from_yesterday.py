@@ -43,26 +43,31 @@ def main():
                 difference = home_score - away_score
                 if difference > 0:
                     home_team.wins += 1
-                    away_team.losses -= 1
+                    away_team.losses += 1
                 else:
                     away_team.wins += 1
-                    home_team.losses -= 1
+                    home_team.losses += 1
                 if spread > 0: #Away Team is favored
                     if difference > 0 or math.fabs(difference) < spread: #Home team won outright or away team didn't cover spread.
 
                         home_team.ats_wins += 1
                         away_team.ats_losses += 1
+                        
                         if favorite_team.id == home_team.id:
                             pick.picked_correctly = True
                         else:
                             pick.picked_correctly = False
                     else:
+
+                        away_team.ats_wins += 1
+                        home_team.ats_losses += 1
+
                         if favorite_team.id == away_team.id:
                             pick.picked_correctly = True
                         else:
                             pick.picked_correctly = False
-                        away_team.ats_wins += 1
-                        home_team.ats_losses += 1
+
+                        
                 else: #Home team is favored
                     if difference < 0 or difference < math.fabs(spread):  #Away Team won outright or home team didn't cover the spread.
 
@@ -73,9 +78,10 @@ def main():
                             pick.picked_correctly = True
                         else:
                             pick.picked_correctly = False
-                        away_team.ats_wins += 1
-                        home_team.ats_losses += 1
+                        
+                        
                     else:
+
                         home_team.ats_wins += 1
                         away_team.ats_losses += 1
 
@@ -83,6 +89,8 @@ def main():
                             pick.picked_correctly = True
                         else:
                             pick.picked_correctly = False
+
+                        
             # print(home_team.spread_name + '\n')
             # print(away_team.spread_name + '\n')
                 home_team.updateTeam()

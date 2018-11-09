@@ -3,7 +3,7 @@ import pymysql.cursors
 def initConnectionSettings():
     config = {'user_name':'python',
         'password':'Zeppelin32!',
-        'host': '10.0.0.94',
+        'host': '192.168.0.18',
         'db':'ncaa_basketball',
         'charset':'utf8mb4',
         'cursorclass':pymysql.cursors.DictCursor
