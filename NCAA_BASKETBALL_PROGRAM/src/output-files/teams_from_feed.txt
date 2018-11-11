@@ -1,0 +1,50 @@
+William Mary is not in the database. 
+Duquesne is not in the database. 
+St. Louis is not in the database. 
+Evansville is not in the database. 
+Miami (OH) is not in the database. 
+UNC Charlotte is not in the database. 
+Northern Iowa is not in the database. 
+Texas-Arlington is not in the database. 
+Loyola-Marymount is not in the database. 
+Syracuse is not in the database. 
+College of Charleston is not in the database. 
+Indiana-Purdue is not in the database. 
+SE Missouri State is not in the database. 
+Bradley is not in the database. 
+UT Martin is not in the database. 
+St. Peters is not in the database. 
+Columbia is not in the database. 
+UT Chattanooga is not in the database. 
+UW Milwaukee is not in the database. 
+UC Riverside is not in the database. 
+MD-Eastern Shore is not in the database. 
+North Carolina State is not in the database. 
+UMASS Lowell is not in the database. 
+High Point is not in the database. 
+North Carolina AT is not in the database. 
+Wake Forest is not in the database. 
+Jackson State is not in the database. 
+Jacksonville is not in the database. 
+Alabama AM is not in the database. 
+Lafayette is not in the database. 
+La Salle is not in the database. 
+Lipscomb is not in the database. 
+Arkansas-Pine Bluff is not in the database. 
+Bethune Cookman is not in the database. 
+South Carolina State is not in the database. 
+Maine is not in the database. 
+Central Connecticut St. is not in the database. 
+Southern AM is not in the database. 
+Presbyterian is not in the database. 
+Coppin State is not in the database. 
+Dayton is not in the database. 
+Fairfield is not in the database. 
+Bucknell is not in the database. 
+Holy Cross is not in the database. 
+Winthrop is not in the database. 
+Fordham is not in the database. 
+Houston Baptist is not in the database. 
+Delaware State is not in the database. 
+Grand Canyon is not in the database. 
+Texas Southern is not in the database. 

@@ -33,7 +33,7 @@ def main():
 	 
 	server = smtplib.SMTP('smtp.gmail.com', 587)
 	server.starttls()
-	server.login(fromaddr, "Zeppelin32!")
+	server.login(fromaddr, "Jegar1005!")
 	text = msg.as_string()
 	server.sendmail(fromaddr, toaddr, text)
 	server.quit()

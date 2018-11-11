@@ -1,12 +1,22 @@
-import readbasketballlines as rl
+import scrape_vegas_insider as scrape
 from dbentities import Pick
 from dbentities import Team
+from livelineentities import *
 from cbapputil import date_time_util as dtu
 import send_picks
 
+f = open('output-files/teams_from_feed.txt', 'w')
+
 def main():
 
-    games = rl.main()
+    # games = rl.main()
+    # picks = []
+    # for game in games:
+    #     pick = getPickFromGame(game)
+    #     if pick is not None:
+    #         picks.append(pick)
+
+    games = scrape.scrapeSite()
     picks = []
     for game in games:
         pick = getPickFromGame(game)
@@ -18,17 +28,21 @@ def main():
             pick.insertPick()
 	
     send_picks.main()
-
+    f.close( )
 
 def getPickFromGame(game):
     pick = None
     if game != None and game.period != None and game.period.period_description == 'Game':
         pick = Pick.Pick()
         pick.game_date = dtu.getDateObjectFromString(game.event_datetime)
-        pick.game_time = dtu.getTimeObjFromDTString(game.event_datetime)
+        pick.game_time = dtu.getTimeObjFromDTStringSec(game.event_datetime)
         
         team_one = getTeamFromParticipant(game.participant_one.participant_name)
         team_two = getTeamFromParticipant(game.participant_two.participant_name)
+        if team_one is None:
+            f.write(game.participant_one.participant_name + ' is not in the database. \n')
+        if team_two is None:
+            f.write(game.participant_two.participant_name + ' is not in the database. \n')
         if team_one is not None and team_two is not None:
             pick.away_team = team_one
             pick.home_team = team_two

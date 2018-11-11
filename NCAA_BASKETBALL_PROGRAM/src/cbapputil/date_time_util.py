@@ -1,5 +1,10 @@
 from datetime import datetime
 
+def reformatDateString(input):
+    if input is not None and '/' in input:
+        dObj = datetime.strptime(input, '%m/%d/%Y');
+        return dObj.strftime('%Y-%m-%d')
+
 def getTimeObjFromDTString(input):
 
     if input is not None and ':' in input and ' ' in input:
@@ -7,6 +12,16 @@ def getTimeObjFromDTString(input):
         if len(date_time_parts) > 1:
             time_string = date_time_parts[1]
             timeObject = datetime.strptime(time_string, '%H:%M').time()
+            return timeObject
+    return None        
+
+def getTimeObjFromDTStringSec(input):
+
+    if input is not None and ':' in input and ' ' in input:
+        date_time_parts = input.split(' ')
+        if len(date_time_parts) > 1:
+            time_string = date_time_parts[1]
+            timeObject = datetime.strptime(time_string, '%H:%M:%S').time()
             return timeObject
     return None        
 
