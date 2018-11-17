@@ -29,19 +29,22 @@ def find_between( s, first, last ):
 def findScoreboard(html):
     #print('findScoreboard is called: ' + html)
     lines = html.split('\n')
+    if len(lines) < 1:
+        print 'No lines from html' 
     section_occurances = 0
     write_flag = False
     output = ''
     for line in lines:
-        if write_flag == True and '<section' in line:
+        #print line
+        if write_flag == True and '<div' in line:
             #print('Write flag true ', 'Section found.' )
             section_occurances = section_occurances + 1
-        if write_flag == True and '</section>' in line:
+        if write_flag == True and '</div>' in line:
             #print('Write flag true ', '/Section found.' )
             section_occurances = section_occurances - 1
             if section_occurances <= 0:
                 write_flag = False
-        if '<section id="scoreboard">' in line:
+        if '<div id="scoreboardContent" class="layout--content-left">' in line:
             #print('Write flag set to true ', 'Section id = scoreboard.' )
             write_flag = True
             section_occurances = section_occurances + 1
@@ -53,50 +56,67 @@ def findScoreboard(html):
 def getGamesFromBoard(html):
     scoreboard = findScoreboard(html)
     lines = scoreboard.split('\n')
+    if len(lines) < 1:
+        print 'No Lines from board'
     section_occurances = 0
     write_flag = False
     output = []
     holder = ''
     for line in lines:
-        if write_flag == True and '</section>' in line:
+        if write_flag == True and '<div' in line:
+            section_occurances = section_occurances + 1  
+        if write_flag == True and '</div>' in line:
           # print('write flag true end of section')
-           section_occurances = section_occurances -1
-           holder = holder + line + '\n'
-           if section_occurances <= 0:
+            section_occurances = section_occurances - 1
+            holder = holder + line + '\n'
+            if section_occurances <= 0:
                write_flag = False
                #print(holder)
                output.append(holder)
-        if '<section class="game' in line:
+        if '<div class="gamePod gamePod-type-game' in line:
             holder = ''
             section_occurances = section_occurances + 1
             write_flag = True
         if write_flag == True:
             holder = holder + line + '\n'
     return output
-	
-def getTeamsFromGame(game):
-    output = []
-    lines = game.split('/n')
+    
+def getTeamOneFromGame(game):
+    
+    lines = game.split('\n')
     for line in lines:
-        if '<h3>' in line:
-            teams = find_between(line,'<h3>','</h3>')
-            teams = teams.split('vs')
-            for team in teams:
+        # print line
+        # print '------------------'
+        if '<span class="gamePod-game-team-name">' in line:
+            team = find_between(line,'<span class="gamePod-game-team-name">','</span>')
+            team = team.strip()
+            participant = Participant()
+            participant.participant_name = team
+            return participant
+def getTeamTwoFromGame(game):
+    
+    count = 0
+    lines = game.split('\n')
+    for line in lines:
+        # print line
+        # print '------------------'
+        if '<span class="gamePod-game-team-name">' in line:
+            count = count + 1
+            if count == 2:
+                team = find_between(line,'<span class="gamePod-game-team-name">','</span>')
                 team = team.strip()
                 participant = Participant()
                 participant.participant_name = team
-                
-                output.append(participant)
-    return output
+                return participant
 
 def getTimeForGame(game):
     time = None
     lines = game.split('/n')
     for line in lines:
         
-        if '<div class="game-status pre ">' in line:
+        if '<span class="game-time">' in line:
             
-            time = find_between(line, '<div class="game-status pre ">', '</div>')
+            time = find_between(line, '<span class="game-time">', '</span>')
             
             # o = datetime.datetime.strptime(time, '%-I:%M %p')
             print(time)
@@ -105,14 +125,14 @@ def getTimeForGame(game):
             return time
 
 def getScores(game):
-	scores = []
-	lines = game.split('/n')
-	for line in lines:
-		if '<td class="final score">' in line:
-			score = find_between(line, '<td class="final score">', '</td>')
-			scores.append(score)
-	return scores
-			
+    scores = []
+    lines = game.split('/n')
+    for line in lines:
+        if '<td class="final score">' in line:
+            score = find_between(line, '<td class="final score">', '</td>')
+            scores.append(score)
+    return scores
+            
 def getDateFromDateTime(input):
     date = None
 
@@ -129,8 +149,8 @@ def getTimeFromDateTime(input):
         datesplit = input.split(' ')
         if datesplit is not None and len(datesplit) > 1:
             time = datesplit[1]
-    return time	
-		
+    return time 
+        
 def openFile():
    cur_dir = os.path.dirname(__file__)
    print(cur_dir)
@@ -145,25 +165,23 @@ def getAllGames(html,date):
     
     games = getGamesFromBoard(html)
     scheduleArr = []
-    
+     
     for game in games:
         schedule = Schedule.Schedule()
         away_team = Team.Team()
         home_team = Team.Team()
         time = getTimeForGame(game)
         if isinstance(date,str):
-	        date = dtu.getTimeObjectFromString(date)
-        elif not isinstance(date, datetime.date):			
+            date = dtu.getTimeObjFromDTStringAMPM(date)
+        elif not isinstance(date, datetime.date):           
             raise Exception('date is not a date object or cannot be converted as one.')
         #time = getTimeFromDateTime(time)
         if time is not None:
-            time = dtu.getTimeObjectFromString(time)
-        participants = []
-        participants.extend(getTeamsFromGame(game))
-        if (participants is not None and len(participants) == 2 
+            time = dtu.getTimeObjFromDTString(time)
+        away_participant = getTeamOneFromGame(game)
+        home_participant = getTeamTwoFromGame(game)
+        if (away_participant is not None and home_participant is not None
         and date is not None):
-            away_participant = participants[0]
-            home_participant = participants[1]
             away_team.schedule_name = away_participant.participant_name
             home_team.schedule_name = home_participant.participant_name
             away_team.findTeamByScheduleName()
@@ -194,7 +212,7 @@ def getAllGames(html,date):
                 
                 scheduleArr.append(schedule)
     return scheduleArr
-		
+        
 #scoreboard = findScoreBoard(result)
 
 #games = getGamesFromBoard(scoreboard)

@@ -1,4 +1,4 @@
-import readbasketballlines as rl
+import scrape_vegas_insider as insider
 from dbentities import Pick
 from dbentities import Team
 from cbapputil import date_time_util as dtu
@@ -7,7 +7,7 @@ import os.path
 
 
 def main():
-    games = rl.main()
+    games = insider.scrapeSite()
     picks = []
     teams_from_file = []
     file_dir = os.path.dirname(os.path.realpath('__file__'))

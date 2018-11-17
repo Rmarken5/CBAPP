@@ -61,6 +61,9 @@ def getAllGames(html,date):
     games = parse_html.getGamesFromBoard(html)
     scheduleArr = []
     
+    if len(games) < 1:
+        print 'No Games'
+
     for game in games:
         schedule = Schedule.Schedule()
         away_team = Team.Team()
@@ -73,12 +76,13 @@ def getAllGames(html,date):
         #time = getTimeFromDateTime(time)
         if time is not None:
             time = dtu.getTimeObjectFromString(time)
-        participants = []
-        participants.extend(parse_html.getTeamsFromGame(game))
-        if (participants is not None and len(participants) == 2 
+        away_participant = parse_html.getTeamOneFromGame(game)
+        home_participant = parse_html.getTeamTwoFromGame(game)
+        if (away_participant is not None and home_participant is not None
         and date is not None):
-            away_participant = participants[0]
-            home_participant = participants[1]
+            print away_participant.participant_name
+            print 'at'
+            print home_participant.participant_name
             away_team.schedule_name = away_participant.participant_name
             home_team.schedule_name = home_participant.participant_name
             schedule.home_team = home_team
@@ -89,7 +93,7 @@ def getAllGames(html,date):
     return scheduleArr
 
 def openFile():
-    f = open('C:/Users/Ryan/Documents/Python_Workspace/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_html.txt' ,'a+' )
+    f = open('/home/pegaus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/teams_from_html.txt' ,'a+' )
     return f
 
 def getTeamsFromFile(file):

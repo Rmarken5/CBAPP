@@ -1,360 +1,74 @@
-Ball State
-Brown
-Columbia
-Cornell
-Dartmouth
-Davidson
-Detroit Mercy
-Eastern Wash.
-Harvard
-Idaho
-Indiana
-Kent State
-Miami (Ohio)
-Minnesota
-Oakland
-Penn
-Princeton
-Rhode Island
-Toledo
-Yale
 Abilene Christian
-Air Force
-Akron
 Alabama
-Alabama A&M
-Alabama State
-Alcorn State
-American
 Appalachian St.
-Arizona
-Arizona St.
-Ark.-Pine Bluff
-Arkansas
-Arkansas State
-Army West Point
-Auburn
-Austin Peay
 BYU
-Baylor
+Ball State
 Belmont
 Bethune-Cookman
-Boise State
-Boston College
-Boston U.
 Bowling Green
-Brown
-Bryant
-Buffalo
-Butler
+Boyce
 CSU Bakersfield
 CSU Fullerton
-CSUN
-Cal Poly
 California
-Campbell
-Canisius
-Cent. Conn. St.
-Cent. Michigan
-Charleston
-Charleston So.
-Charlotte
-Chattanooga
-Chicago State
-Citadel
-Cleveland State
-Coastal Caro.
-Colorado State
-Columbia
+Carver Bible
+Central Ark.
+Central Mich.
 Cornell
 Creighton
-Dartmouth
-Dayton
+Davidson
 DePaul
 Delaware
 Denver
-Drake
-Drexel
-Duquesne
-East Tenn. St.
-Eastern Illinois
-Eastern Kentucky
-Eastern Mich.
+Detroit Mercy
 Elon
 Evansville
-FGCU
-FIU
-Fairfield
-Florida
-Florida A&M
-Florida Atlantic
-Florida State
-Fordham
+Fla. Christian
+Fresno State
 Furman
-Ga. Southern
-Gardner-Webb
-Geo. Washington
-George Mason
-Georgetown
-Georgia
-Georgia State
 Gonzaga
-Grambling
-Grand Canyon
-Green Bay
-Hampton
-Harvard
-Hawaii
-High Point
-Hofstra
-Holy Cross
-Houston Baptist
-IPFW
-IUPUI
-Idaho State
-Illinois-Chicago
-Incarnate Word
-Indiana State
-Iona
-Iowa
-Iowa State
-Jackson State
-Jacksonville
-Jacksonville St.
-James Madison
-Kansas
-Kansas St.
-Kennesaw State
-Kentucky
-LIU Brooklyn
-LSU
-La Salle
-La.-Monroe
-Lamar University
-Lehigh
-Liberty
-Lipscomb
-Little Rock
-Long Beach St.
-Longwood
-Louisiana
-Louisiana Tech
-Loyola Chicago
-Loyola Marym't
-Manhattan
-Marist
-Marquette
-Marshall
-Maryland
-Massachusetts
-McNeese
-Md.-East. Shore
-Mercer
-Miami (Fla.)
-Mich. St.
-Middle Tenn.
-Milwaukee
-Miss. Valley St.
-Mississippi
-Mississippi St.
-Missouri
-Missouri State
-Monmouth
-Montana
-Montana St.
-Morehead State
-Morgan State
-Mt. St. Mary's
-Murray State
-N'western St.
-N.C. A&T
-N.C. Central
-NC State
-NJIT
-Navy
-Nebraska
-Nevada
-New Mexico
-New Mexico St.
-New Orleans
-Niagara
-Nicholls State
-Norfolk State
-North Carolina
-North Dakota
-North Dakota St.
-North Florida
-North Texas
-Northeastern
-Northern Ariz.
-Northern Colo.
-Northern Ill.
-Northern Kentucky
-Northwestern
-Notre Dame
-Ohio
-Ohio St.
-Oklahoma
-Oklahoma State
-Old Dominion
-Omaha
-Oral Roberts
-Oregon St.
-Pacific
-Penn
-Pepperdine
-Portland
-Portland State
-Prairie View A&M
-Presbyterian
-Princeton
-Providence
-Purdue
-Quinnipiac
-Radford
-Rice
-Richmond
-Rider
-Robert Morris
-Rutgers
-S. Carolina St.
-S.C. Upstate
-SIUE
-Sacramento St.
-Sacred Heart
-Saint Joseph's
-Saint Louis
-Sam Houston St.
-Samford
-San Diego
-San Diego State
-San Francisco
-San Jose State
-Santa Clara
-Savannah State
-Seattle U
-Seton Hall
-South Alabama
-South Carolina
-South Dakota St.
-South Florida
-Southeast Mo. St.
-Southeastern La.
-Southern Miss
-Southern Univ.
-Southern Utah
-St. Bonaventure
-St. Francis (B'klyn)
-St. Francis (Pa.)
-St. John's
-St. Mary's (Cal.)
-St. Peter's
-Steph. F. Austin
-Stetson
-TCU
-Temple
-Tennessee
-Tennessee State
-Tennessee Tech
-Tennessee-Martin
-Texas
-Texas A&M
-Texas A&M-C.C.
-Texas Southern
-Texas State
-Texas Tech
-Texas-Arlington
-Towson
-Troy
-UAB
-UC Davis
-UC Irvine
-UC Riverside
-UCLA
-UConn
-UMKC
-UNC Asheville
-UNC-Greensboro
-UNCW
-UNI
-UNLV
-USC
-UTEP
-UTRGV
-UTSA
-Utah
-Utah State
-Utah Valley
-VCU
-VMI
-Vanderbilt
-Villanova
-Virginia
-Virginia Tech
-Washington
-Weber State
-West Virginia
-Western Caro.
-Western Ky.
-Western Mich.
-Wichita State
-William & Mary
-Winthrop
-Wofford
-Wright State
-Wyoming
-Xavier
-Yale
-Youngstown St.
-Albany
-Bradley
-Cincinnati
-Colorado
-Duke
-Fairleigh D'son
-Georgia Tech
 Hartford
-Houston
-Illinois
-Illinois State
-Lafayette
-Louisville
-Loyola (Md.)
-Maine
-Mass.-Lowell
-Memphis
-Michigan
-New Hampshire
+Idaho State
+Iowa
+Kentucky Wesleyan
+Lincoln (Pa.)
+Lipscomb
+Milligan
+Mississippi Val.
+Monmouth
+Morgan State
+N.C. Central
+North Greenville
+Northeastern
+Ohio St.
+Oral Roberts
 Oregon
+Pacific
 Penn St.
 Pittsburgh
-SMU
-Southern Ill.
-Stanford
-Stony Brook
+Presbyterian
+Purdue
+Quinnipiac
+Saint Joseph&#039;s
+San Diego
+San Diego Christian
+San Jose State
+Santa Clara
+Southern Miss
 Syracuse
-Tulane
+TCU
+Tennessee State
+Texas A&amp;M
+Troy
+UC Irvine
 UCF
-UMBC
+UConn
+UIC
+Utah
 Valparaiso
-Vermont
-Wagner
+Virginia Tech
 Wake Forest
-Washington St.
-Wisconsin
-Bucknell
-Colgate
-Coppin State
-Delaware State
-Howard
-Siena
-Central Ark.
-Fresno State
-South Dakota
-UC Santa Barb.
-Western Illinois
-Binghamton
-Clemson
-East Carolina
-Tulsa
-SFA
+Weber State
+West Virginia
+Western Ky.
+Wichita State
+William &amp; Mary

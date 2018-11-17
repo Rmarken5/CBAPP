@@ -12,8 +12,9 @@ def main():
     results = r.text
     games = []
     games = parse_html.getAllGames(results,yesterday)
-
+    i = 0
     for game in games:
+        print ++i
     	game.updateSchedule()
 
 if __name__ == '__main__':

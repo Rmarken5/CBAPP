@@ -10,10 +10,21 @@ def getTimeObjFromDTString(input):
     if input is not None and ':' in input and ' ' in input:
         date_time_parts = input.split(' ')
         if len(date_time_parts) > 1:
-            time_string = date_time_parts[1]
-            timeObject = datetime.strptime(time_string, '%H:%M').time()
+            time_string = date_time_parts[0]
+            print time_string
+            timeObject = datetime.strptime(time_string, '%H:%M%p').time()
             return timeObject
     return None        
+
+def getTimeObjFromDTStringAMPM(input):
+
+    if input is not None and ':' in input and ' ' in input:
+        date_time_parts = input.split(' ')
+        if len(date_time_parts) > 1:
+            time_string = date_time_parts[1]
+            timeObject = datetime.strptime(time_string, '%I:%M %p').time()
+            return timeObject
+    return None 
 
 def getTimeObjFromDTStringSec(input):
 
@@ -37,12 +48,12 @@ def getTimeObjectFromString(input):
         print(hour)
         print (minutes)
         
-        second_half_peices = minutes.split(' ')
-        minutes = second_half_peices[0]
+        indicator = minutes[2:4].upper()
+        second_half_peices = minutes[:2]
+        minutes = second_half_peices
         if len(hour) == 1:
             hour = '0' + hour
         
-        indicator = second_half_peices[1].strip().upper()
         if hour == '12':
             hour = '00'
         if indicator == 'PM':

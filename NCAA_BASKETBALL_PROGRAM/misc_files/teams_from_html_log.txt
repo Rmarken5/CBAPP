@@ -1,632 +1,106 @@
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Albany
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Bradley
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Cincinnati
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Colorado
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Duke
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Fairleigh D'son
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Georgia Tech
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Hartford
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Houston
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Illinois
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Illinois State
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Lafayette
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Louisville
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Loyola (Md.)
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Maine
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Mass.-Lowell
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Memphis
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Michigan
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: New Hampshire
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Oregon
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Penn St.
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Pittsburgh
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: SMU
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Southern Ill.
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Stanford
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Stony Brook
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Syracuse
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Tulane
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: UCF
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: UMBC
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Valparaiso
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Vermont
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Wagner
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Wake Forest
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Washington St.
-2018-02-11 13:43:01.287846 - Ommiting, team already in file: Wisconsin
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Albany
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Bradley
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Cincinnati
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Colorado
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Duke
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Fairleigh D'son
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Georgia Tech
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Hartford
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Houston
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Illinois
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Illinois State
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Lafayette
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Louisville
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Loyola (Md.)
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Maine
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Mass.-Lowell
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Memphis
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Michigan
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: New Hampshire
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Oregon
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Penn St.
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Pittsburgh
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: SMU
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Southern Ill.
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Stanford
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Stony Brook
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Syracuse
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Tulane
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: UCF
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: UMBC
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Valparaiso
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Vermont
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wagner
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wake Forest
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Washington St.
-2018-02-11 19:06:24.208217 - Ommiting, team already in file: Wisconsin
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Alcorn State
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Ark.-Pine Bluff
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Baylor
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Bethune-Cookman
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Canisius
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: East Tenn. St.
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Fairfield
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Florida A&M
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Grambling
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Hampton
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Iona
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Jackson State
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Md.-East. Shore
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Mercer
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Miss. Valley St.
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Morgan State
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: N.C. A&T
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: N.C. Central
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Norfolk State
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: North Carolina
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Notre Dame
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Prairie View A&M
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Samford
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Savannah State
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Southern Univ.
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: TCU
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Texas
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: Texas Southern
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: UNC-Greensboro
-2018-02-12 17:41:06.662886 - Ommiting, team already in file: West Virginia
-2018-02-12 17:41:06.662886 - Writing team to file: Bucknell
-2018-02-12 17:41:06.662886 - Writing team to file: Colgate
-2018-02-12 17:41:06.662886 - Writing team to file: Coppin State
-2018-02-12 17:41:06.662886 - Writing team to file: Delaware State
-2018-02-12 17:41:06.662886 - Writing team to file: Howard
-2018-02-12 17:41:06.662886 - Writing team to file: Siena
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Alcorn State
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Ark.-Pine Bluff
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Baylor
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Bethune-Cookman
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Canisius
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: East Tenn. St.
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Fairfield
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Florida A&M
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Grambling
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Hampton
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Iona
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Jackson State
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Md.-East. Shore
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Mercer
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Miss. Valley St.
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Morgan State
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: N.C. A&T
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: N.C. Central
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Norfolk State
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: North Carolina
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Notre Dame
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Prairie View A&M
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Samford
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Savannah State
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Southern Univ.
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: TCU
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Texas
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: Texas Southern
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: UNC-Greensboro
-2018-02-12 17:42:21.734762 - Ommiting, team already in file: West Virginia
-2018-02-12 17:42:21.734762 - Writing team to file: Bucknell
-2018-02-12 17:42:21.734762 - Writing team to file: Colgate
-2018-02-12 17:42:21.734762 - Writing team to file: Coppin State
-2018-02-12 17:42:21.734762 - Writing team to file: Delaware State
-2018-02-12 17:42:21.734762 - Writing team to file: Howard
-2018-02-12 17:42:21.734762 - Writing team to file: Siena
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Bowling Green
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Brown
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Buffalo
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Canisius
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Cleveland State
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Columbia
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Cornell
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Dartmouth
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Detroit Mercy
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Ga. Southern
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Georgia State
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Green Bay
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Harvard
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: IUPUI
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Illinois-Chicago
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Iona
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Milwaukee
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Monmouth
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Niagara
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Northern Kentucky
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Oakland
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Penn
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Princeton
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Rhode Island
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: St. Bonaventure
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Wright State
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Yale
-2018-02-16 17:35:23.460373 - Ommiting, team already in file: Youngstown St.
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Abilene Christian
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Air Force
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Akron
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Alabama
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Alabama A&M
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Alabama State
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Alcorn State
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: American
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Appalachian St.
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Ark.-Pine Bluff
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Arkansas
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Arkansas State
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Army West Point
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Auburn
-2018-02-17 10:11:49.364354 - Ommiting, team already in file: Austin Peay
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: BYU
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Ball State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Baylor
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Belmont
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Bethune-Cookman
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Boise State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Boston College
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Boston U.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Bradley
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Brown
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Bryant
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Bucknell
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Butler
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: CSU Bakersfield
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: CSU Fullerton
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: CSUN
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Cal Poly
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Cent. Conn. St.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Cent. Michigan
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Charleston
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Charlotte
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Chattanooga
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Citadel
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Coastal Caro.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Colorado
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Colorado State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Columbia
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Coppin State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Cornell
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Creighton
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Dartmouth
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Davidson
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Dayton
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Delaware
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Delaware State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Drexel
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Duquesne
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: East Tenn. St.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Eastern Illinois
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Eastern Kentucky
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Eastern Mich.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Eastern Wash.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Elon
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: FGCU
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: FIU
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Fairfield
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Fairleigh D'son
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Florida
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Florida A&M
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Florida Atlantic
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Fordham
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Furman
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Geo. Washington
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: George Mason
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Georgia
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Georgia Tech
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Gonzaga
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Grambling
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Grand Canyon
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Hampton
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Harvard
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Hawaii
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Hofstra
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Holy Cross
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Houston Baptist
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Howard
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: IPFW
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Idaho
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Idaho State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Illinois State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Incarnate Word
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Indiana
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Indiana State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Iowa
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Iowa State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Jackson State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Jacksonville
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Jacksonville St.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: James Madison
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Kansas
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Kansas St.
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Kennesaw State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Kent State
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Kentucky
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: LIU Brooklyn
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: LSU
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: La Salle
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: La.-Monroe
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Lafayette
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Lamar University
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Lehigh
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Lipscomb
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Little Rock
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Louisiana
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Louisiana Tech
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Louisville
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Loyola Marym't
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Marist
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Marquette
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Marshall
-2018-02-17 10:11:49.365354 - Ommiting, team already in file: Maryland
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Massachusetts
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: McNeese
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Md.-East. Shore
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Memphis
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Mercer
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Miami (Fla.)
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Miami (Ohio)
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Mich. St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Middle Tenn.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Miss. Valley St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Mississippi
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Mississippi St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Missouri
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Montana
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Montana St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Morehead State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Mt. St. Mary's
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Murray State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: N.C. A&T
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: N.C. Central
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: NC State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: NJIT
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Navy
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Nevada
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: New Mexico St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: New Orleans
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Nicholls State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Norfolk State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: North Carolina
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: North Dakota
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: North Dakota St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: North Florida
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: North Texas
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Northeastern
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Northern Ariz.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Northern Colo.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Northern Ill.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Northwestern
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Notre Dame
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Ohio
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Oklahoma
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Oklahoma State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Old Dominion
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Omaha
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Oregon
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Oregon St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Pacific
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Penn
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Pepperdine
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Portland
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Portland State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Prairie View A&M
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Princeton
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Providence
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Quinnipiac
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Rice
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Richmond
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Robert Morris
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Rutgers
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: S. Carolina St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: S.C. Upstate
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: SIUE
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: SMU
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Sacramento St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Sacred Heart
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Saint Joseph's
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Saint Louis
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Sam Houston St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Samford
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: San Diego
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: San Diego State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: San Francisco
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: San Jose State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Santa Clara
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Savannah State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Seattle U
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: South Alabama
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: South Carolina
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: South Dakota St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Southeast Mo. St.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Southeastern La.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Southern Ill.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Southern Miss
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Southern Univ.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Southern Utah
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: St. Francis (B'klyn)
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: St. Francis (Pa.)
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: St. Mary's (Cal.)
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: St. Peter's
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Steph. F. Austin
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Stetson
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Syracuse
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: TCU
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Tennessee
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Tennessee State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Tennessee Tech
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Tennessee-Martin
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas A&M
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas A&M-C.C.
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas Southern
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas State
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas Tech
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Texas-Arlington
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Toledo
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Towson
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Troy
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: Tulane
-2018-02-17 10:11:49.366357 - Ommiting, team already in file: UAB
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UC Davis
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UC Irvine
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UC Riverside
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UCF
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UCLA
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UNC-Greensboro
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UNCW
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UNI
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UNLV
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: USC
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UTEP
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UTRGV
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: UTSA
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Utah
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Utah State
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Utah Valley
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: VCU
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: VMI
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Valparaiso
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Vanderbilt
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Villanova
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Virginia Tech
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Wagner
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Wake Forest
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Washington
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Washington St.
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Weber State
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: West Virginia
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Western Caro.
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Western Ky.
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Western Mich.
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: William & Mary
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Wofford
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Wyoming
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Xavier
-2018-02-17 10:11:49.367356 - Ommiting, team already in file: Yale
-2018-02-17 10:11:49.367356 - Writing team to file: Central Ark.
-2018-02-17 10:11:49.367356 - Writing team to file: Fresno State
-2018-02-17 10:11:49.367356 - Writing team to file: South Dakota
-2018-02-17 10:11:49.367356 - Writing team to file: UC Santa Barb.
-2018-02-17 10:11:49.367356 - Writing team to file: Western Illinois
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Albany
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: California
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Campbell
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Canisius
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Charleston So.
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Cincinnati
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Colgate
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: DePaul
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Denver
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Drake
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Duke
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Evansville
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Florida State
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Gardner-Webb
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Hartford
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: High Point
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Houston
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Illinois
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Liberty
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Longwood
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Loyola (Md.)
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Loyola Chicago
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Manhattan
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Mass.-Lowell
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Michigan
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Missouri State
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Monmouth
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Nebraska
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: New Hampshire
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Niagara
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Ohio St.
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Oral Roberts
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Penn St.
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Pittsburgh
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Presbyterian
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Purdue
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Radford
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Rider
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Seton Hall
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Siena
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: South Florida
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Stanford
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Stony Brook
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Temple
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: UConn
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: UMBC
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: UNC Asheville
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Vermont
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Wichita State
-2018-02-18 16:19:24.065586 - Ommiting, team already in file: Winthrop
-2018-02-18 16:19:24.065586 - Writing team to file: Binghamton
-2018-02-18 16:19:24.065586 - Writing team to file: Clemson
-2018-02-18 16:19:24.065586 - Writing team to file: East Carolina
-2018-02-18 16:19:24.065586 - Writing team to file: Tulsa
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Alabama A&M
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Alabama State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Alcorn State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Ark.-Pine Bluff
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Bethune-Cookman
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Cleveland State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Coppin State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Delaware State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Detroit Mercy
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Hampton
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Howard
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: IUPUI
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Illinois-Chicago
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Kansas
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Maryland
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Md.-East. Shore
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Miami (Fla.)
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Minnesota
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Miss. Valley St.
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Morgan State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: N.C. A&T
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: N.C. Central
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Norfolk State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Northern Kentucky
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Northwestern
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Notre Dame
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Oakland
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Oklahoma
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Prairie View A&M
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: S. Carolina St.
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Savannah State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Southern Univ.
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Texas Southern
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Wisconsin
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Wright State
-2018-02-19 17:05:43.075740 - Ommiting, team already in file: Youngstown St.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Abilene Christian
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Air Force
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Alabama
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: American
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Army West Point
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Auburn
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Binghamton
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Boise State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Boston U.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Bradley
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Bucknell
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: CSU Fullerton
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Canisius
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Central Ark.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Clemson
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Colgate
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Colorado
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Colorado State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Davidson
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: DePaul
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Drake
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Duke
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Duquesne
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: East Carolina
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Evansville
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Fairfield
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Florida
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Fordham
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Fresno State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Geo. Washington
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: George Mason
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Georgetown
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Georgia
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Georgia Tech
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Hartford
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Holy Cross
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Houston Baptist
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Illinois State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Incarnate Word
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Indiana State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Iowa
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Iowa State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Kansas St.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Lafayette
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Lamar University
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Lehigh
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Louisville
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Loyola (Md.)
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Loyola Chicago
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Maine
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Marquette
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Mass.-Lowell
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Massachusetts
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: McNeese
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Michigan
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Minnesota
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Missouri State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: N'western St.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Navy
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Nevada
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: New Hampshire
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: New Orleans
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Niagara
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Nicholls State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: North Carolina
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Oklahoma State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Penn St.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Pittsburgh
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Providence
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Richmond
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: SMU
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Saint Joseph's
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Sam Houston St.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: San Diego State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: San Jose State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Seton Hall
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Siena
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: South Carolina
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Southern Ill.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: St. Bonaventure
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: St. John's
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Stony Brook
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Syracuse
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: TCU
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Tennessee
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Texas
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Texas A&M-C.C.
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Texas Tech
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Tulane
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Tulsa
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: UC Riverside
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: UCF
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: UMBC
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: UNLV
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: USC
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: VCU
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Vermont
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Villanova
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Virginia
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Virginia Tech
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Wake Forest
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Wichita State
-2018-02-21 17:22:03.891894 - Ommiting, team already in file: Xavier
-2018-02-21 17:22:03.891894 - Writing team to file: SFA
+2018-11-14 21:40:13.714834 - Ommiting, team already in file: Colorado State
+2018-11-14 21:40:13.714916 - Ommiting, team already in file: Grambling
+2018-11-14 21:40:13.714986 - Ommiting, team already in file: Indiana
+2018-11-14 21:40:13.715055 - Ommiting, team already in file: Kentucky
+2018-11-14 21:40:13.715123 - Ommiting, team already in file: Marquette
+2018-11-14 21:40:13.715191 - Ommiting, team already in file: Montana St.
+2018-11-14 21:40:13.715258 - Ommiting, team already in file: New Mexico St.
+2018-11-14 21:40:13.715327 - Ommiting, team already in file: North Dakota
+2018-11-14 21:40:13.715396 - Ommiting, team already in file: San Diego State
+2018-11-14 21:40:13.715464 - Ommiting, team already in file: Seattle U
+2018-11-14 21:40:13.715530 - Ommiting, team already in file: St. Mary&#039;s (Cal.)
+2018-11-14 21:40:13.715598 - Ommiting, team already in file: Stetson
+2018-11-14 21:40:13.715666 - Ommiting, team already in file: Texas Southern
+2018-11-14 21:40:13.715735 - Ommiting, team already in file: USC
+2018-11-14 21:40:13.715803 - Ommiting, team already in file: Washington St.
+2018-11-14 21:40:13.715871 - Ommiting, team already in file: Wyoming
+2018-11-14 21:45:07.309072 - Ommiting, team already in file: Colorado State
+2018-11-14 21:45:07.309137 - Ommiting, team already in file: Grambling
+2018-11-14 21:45:07.309190 - Ommiting, team already in file: Indiana
+2018-11-14 21:45:07.309243 - Ommiting, team already in file: Kentucky
+2018-11-14 21:45:07.309296 - Ommiting, team already in file: Marquette
+2018-11-14 21:45:07.309350 - Ommiting, team already in file: Montana St.
+2018-11-14 21:45:07.309402 - Ommiting, team already in file: New Mexico St.
+2018-11-14 21:45:07.309455 - Ommiting, team already in file: North Dakota
+2018-11-14 21:45:07.309508 - Ommiting, team already in file: San Diego State
+2018-11-14 21:45:07.309561 - Ommiting, team already in file: Seattle U
+2018-11-14 21:45:07.309613 - Ommiting, team already in file: St. Mary&#039;s (Cal.)
+2018-11-14 21:45:07.309665 - Ommiting, team already in file: Stetson
+2018-11-14 21:45:07.309718 - Ommiting, team already in file: Texas Southern
+2018-11-14 21:45:07.309771 - Ommiting, team already in file: USC
+2018-11-14 21:45:07.309824 - Ommiting, team already in file: Washington St.
+2018-11-14 21:45:07.309877 - Ommiting, team already in file: Wyoming
+2018-11-15 19:29:52.230306 - Writing team to file: Abilene Christian
+2018-11-15 19:29:52.230324 - Writing team to file: Alabama
+2018-11-15 19:29:52.230332 - Writing team to file: Appalachian St.
+2018-11-15 19:29:52.230337 - Writing team to file: BYU
+2018-11-15 19:29:52.230343 - Writing team to file: Ball State
+2018-11-15 19:29:52.230349 - Writing team to file: Belmont
+2018-11-15 19:29:52.230355 - Writing team to file: Bethune-Cookman
+2018-11-15 19:29:52.230360 - Writing team to file: Bowling Green
+2018-11-15 19:29:52.230366 - Writing team to file: Boyce
+2018-11-15 19:29:52.230372 - Writing team to file: CSU Bakersfield
+2018-11-15 19:29:52.230377 - Writing team to file: CSU Fullerton
+2018-11-15 19:29:52.230383 - Writing team to file: California
+2018-11-15 19:29:52.230388 - Writing team to file: Carver Bible
+2018-11-15 19:29:52.230394 - Writing team to file: Central Ark.
+2018-11-15 19:29:52.230399 - Writing team to file: Central Mich.
+2018-11-15 19:29:52.230405 - Writing team to file: Cornell
+2018-11-15 19:29:52.230410 - Writing team to file: Creighton
+2018-11-15 19:29:52.230416 - Writing team to file: Davidson
+2018-11-15 19:29:52.230421 - Writing team to file: DePaul
+2018-11-15 19:29:52.230427 - Writing team to file: Delaware
+2018-11-15 19:29:52.230433 - Writing team to file: Denver
+2018-11-15 19:29:52.230438 - Writing team to file: Detroit Mercy
+2018-11-15 19:29:52.230443 - Writing team to file: Elon
+2018-11-15 19:29:52.230449 - Writing team to file: Evansville
+2018-11-15 19:29:52.230455 - Writing team to file: Fla. Christian
+2018-11-15 19:29:52.230460 - Writing team to file: Fresno State
+2018-11-15 19:29:52.230466 - Writing team to file: Furman
+2018-11-15 19:29:52.230471 - Writing team to file: Gonzaga
+2018-11-15 19:29:52.230477 - Writing team to file: Hartford
+2018-11-15 19:29:52.230482 - Writing team to file: Idaho State
+2018-11-15 19:29:52.230488 - Writing team to file: Iowa
+2018-11-15 19:29:52.230493 - Writing team to file: Kentucky Wesleyan
+2018-11-15 19:29:52.230499 - Writing team to file: Lincoln (Pa.)
+2018-11-15 19:29:52.230504 - Writing team to file: Lipscomb
+2018-11-15 19:29:52.230510 - Writing team to file: Milligan
+2018-11-15 19:29:52.230515 - Writing team to file: Mississippi Val.
+2018-11-15 19:29:52.230521 - Writing team to file: Monmouth
+2018-11-15 19:29:52.230526 - Writing team to file: Morgan State
+2018-11-15 19:29:52.230532 - Writing team to file: N.C. Central
+2018-11-15 19:29:52.230537 - Writing team to file: North Greenville
+2018-11-15 19:29:52.230543 - Writing team to file: Northeastern
+2018-11-15 19:29:52.230548 - Writing team to file: Ohio St.
+2018-11-15 19:29:52.230554 - Writing team to file: Oral Roberts
+2018-11-15 19:29:52.230559 - Writing team to file: Oregon
+2018-11-15 19:29:52.230565 - Writing team to file: Pacific
+2018-11-15 19:29:52.230570 - Writing team to file: Penn St.
+2018-11-15 19:29:52.230576 - Writing team to file: Pittsburgh
+2018-11-15 19:29:52.230581 - Writing team to file: Presbyterian
+2018-11-15 19:29:52.230587 - Writing team to file: Purdue
+2018-11-15 19:29:52.230592 - Writing team to file: Quinnipiac
+2018-11-15 19:29:52.230598 - Writing team to file: Saint Joseph&#039;s
+2018-11-15 19:29:52.230603 - Writing team to file: San Diego
+2018-11-15 19:29:52.230609 - Writing team to file: San Diego Christian
+2018-11-15 19:29:52.230614 - Writing team to file: San Jose State
+2018-11-15 19:29:52.230620 - Writing team to file: Santa Clara
+2018-11-15 19:29:52.230625 - Writing team to file: Southern Miss
+2018-11-15 19:29:52.230631 - Writing team to file: Syracuse
+2018-11-15 19:29:52.230636 - Writing team to file: TCU
+2018-11-15 19:29:52.230642 - Writing team to file: Tennessee State
+2018-11-15 19:29:52.230647 - Writing team to file: Texas A&amp;M
+2018-11-15 19:29:52.230653 - Writing team to file: Troy
+2018-11-15 19:29:52.230658 - Writing team to file: UC Irvine
+2018-11-15 19:29:52.230664 - Writing team to file: UCF
+2018-11-15 19:29:52.230669 - Writing team to file: UConn
+2018-11-15 19:29:52.230675 - Writing team to file: UIC
+2018-11-15 19:29:52.230680 - Writing team to file: Utah
+2018-11-15 19:29:52.230685 - Writing team to file: Valparaiso
+2018-11-15 19:29:52.230710 - Writing team to file: Virginia Tech
+2018-11-15 19:29:52.230718 - Writing team to file: Wake Forest
+2018-11-15 19:29:52.230724 - Writing team to file: Weber State
+2018-11-15 19:29:52.230729 - Writing team to file: West Virginia
+2018-11-15 19:29:52.230735 - Writing team to file: Western Ky.
+2018-11-15 19:29:52.230741 - Writing team to file: Wichita State
+2018-11-15 19:29:52.230746 - Writing team to file: William &amp; Mary
