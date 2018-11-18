@@ -506,3 +506,111 @@
 2018-11-15 19:29:26.081941 - Writing team to file: Western Kentucky
 2018-11-15 19:29:26.081947 - Writing team to file: Wichita State
 2018-11-15 19:29:26.081953 - Writing team to file: William Mary
+2018-11-17 11:53:50.955871 - Writing team to file: Alabama AM
+2018-11-17 11:53:50.955897 - Writing team to file: Albany
+2018-11-17 11:53:50.955913 - Writing team to file: Arkansas-Pine Bluff
+2018-11-17 11:53:50.955928 - Writing team to file: Army
+2018-11-17 11:53:50.955936 - Omitting team from file: BYU
+2018-11-17 11:53:50.955951 - Writing team to file: Bethune Cookman
+2018-11-17 11:53:50.955966 - Writing team to file: Boston University
+2018-11-17 11:53:50.955980 - Writing team to file: Bradley
+2018-11-17 11:53:50.955995 - Writing team to file: Brown
+2018-11-17 11:53:50.956003 - Omitting team from file: CS Bakersfield
+2018-11-17 11:53:50.956017 - Writing team to file: CS Northridge
+2018-11-17 11:53:50.956032 - Writing team to file: Canisius
+2018-11-17 11:53:50.956046 - Writing team to file: Coastal Carolina
+2018-11-17 11:53:50.956061 - Writing team to file: Columbia
+2018-11-17 11:53:50.956069 - Omitting team from file: Cornell
+2018-11-17 11:53:50.956084 - Writing team to file: Drake
+2018-11-17 11:53:50.956098 - Writing team to file: Drexel
+2018-11-17 11:53:50.956112 - Writing team to file: Duquesne
+2018-11-17 11:53:50.956126 - Writing team to file: East Tennessee St.
+2018-11-17 11:53:50.956141 - Writing team to file: Eastern Illinois
+2018-11-17 11:53:50.956155 - Writing team to file: Eastern Kentucky
+2018-11-17 11:53:50.956169 - Writing team to file: Eastern Michigan
+2018-11-17 11:53:50.956183 - Writing team to file: Eastern Washington
+2018-11-17 11:53:50.956197 - Writing team to file: Fairfield
+2018-11-17 11:53:50.956211 - Writing team to file: Florida Atlantic
+2018-11-17 11:53:50.956225 - Writing team to file: Florida Intl
+2018-11-17 11:53:50.956239 - Writing team to file: Fordham
+2018-11-17 11:53:50.956253 - Writing team to file: Furman
+2018-11-17 11:53:50.956267 - Writing team to file: George Mason
+2018-11-17 11:53:50.956282 - Writing team to file: George Washington
+2018-11-17 11:53:50.956296 - Writing team to file: Georgia Southern
+2018-11-17 11:53:50.956310 - Writing team to file: High Point
+2018-11-17 11:53:50.956324 - Writing team to file: Houston Baptist
+2018-11-17 11:53:50.956334 - Omitting team from file: Illinois-Chicago
+2018-11-17 11:53:50.956348 - Writing team to file: Incarnate Word
+2018-11-17 11:53:50.956362 - Writing team to file: Jacksonville
+2018-11-17 11:53:50.956376 - Writing team to file: Kennesaw State
+2018-11-17 11:53:50.956390 - Writing team to file: La Salle
+2018-11-17 11:53:50.956404 - Writing team to file: Lamar
+2018-11-17 11:53:50.956415 - Omitting team from file: Lipscomb
+2018-11-17 11:53:50.956429 - Writing team to file: MD-Baltimore County
+2018-11-17 11:53:50.956443 - Writing team to file: MD-Eastern Shore
+2018-11-17 11:53:50.956457 - Writing team to file: Maine
+2018-11-17 11:53:50.956471 - Writing team to file: Manhattan
+2018-11-17 11:53:50.956485 - Writing team to file: Marquette
+2018-11-17 11:53:50.956499 - Writing team to file: Memphis
+2018-11-17 11:53:50.956513 - Writing team to file: Miami (FL)
+2018-11-17 11:53:50.956527 - Writing team to file: Miami (OH)
+2018-11-17 11:53:50.956541 - Writing team to file: Michigan
+2018-11-17 11:53:50.956551 - Omitting team from file: Mississippi Valley St.
+2018-11-17 11:53:50.956565 - Writing team to file: Missouri-Kansas City
+2018-11-17 11:53:50.956579 - Writing team to file: Montana
+2018-11-17 11:53:50.956594 - Writing team to file: Montana State
+2018-11-17 11:53:50.956608 - Writing team to file: Morehead State
+2018-11-17 11:53:50.956622 - Writing team to file: New Jersey Tech
+2018-11-17 11:53:50.956636 - Writing team to file: New Mexico
+2018-11-17 11:53:50.956650 - Writing team to file: New Mexico State
+2018-11-17 11:53:50.956663 - Writing team to file: Norfolk State
+2018-11-17 11:53:50.956678 - Writing team to file: North Alabama
+2018-11-17 11:53:50.956692 - Writing team to file: North Carolina State
+2018-11-17 11:53:50.956706 - Writing team to file: North Dakota State
+2018-11-17 11:53:50.956720 - Writing team to file: North Florida
+2018-11-17 11:53:50.956734 - Writing team to file: North Texas
+2018-11-17 11:53:50.956748 - Writing team to file: Northern Iowa
+2018-11-17 11:53:50.956790 - Writing team to file: Northern Kentucky
+2018-11-17 11:53:50.956807 - Writing team to file: Northwestern State
+2018-11-17 11:53:50.956822 - Writing team to file: Notre Dame
+2018-11-17 11:53:50.956836 - Writing team to file: Old Dominion
+2018-11-17 11:53:50.956853 - Writing team to file: Pepperdine
+2018-11-17 11:53:50.956868 - Omitting team from file: Pittsburgh
+2018-11-17 11:53:50.956883 - Writing team to file: Portland
+2018-11-17 11:53:50.956906 - Writing team to file: Prairie View AM
+2018-11-17 11:53:50.956922 - Writing team to file: Presbyterian
+2018-11-17 11:53:50.956936 - Writing team to file: Providence
+2018-11-17 11:53:50.956950 - Writing team to file: Radford
+2018-11-17 11:53:50.956964 - Writing team to file: Rice
+2018-11-17 11:53:50.956978 - Writing team to file: Robert Morris
+2018-11-17 11:53:50.956992 - Writing team to file: SE Louisiana
+2018-11-17 11:53:50.957007 - Writing team to file: SE Missouri State
+2018-11-17 11:53:50.957021 - Writing team to file: Sacred Heart
+2018-11-17 11:53:50.957033 - Omitting team from file: San Jose State
+2018-11-17 11:53:50.957047 - Writing team to file: Seton Hall
+2018-11-17 11:53:50.957061 - Writing team to file: South Alabama
+2018-11-17 11:53:50.957075 - Writing team to file: South Carolina
+2018-11-17 11:53:50.957089 - Writing team to file: Southern AM
+2018-11-17 11:53:50.957103 - Writing team to file: Southern Illinois
+2018-11-17 11:53:50.957117 - Writing team to file: Southern Methodist
+2018-11-17 11:53:50.957131 - Writing team to file: St. Louis
+2018-11-17 11:53:50.957145 - Writing team to file: Stetson
+2018-11-17 11:53:50.957159 - Writing team to file: Stony Brook
+2018-11-17 11:53:50.957174 - Writing team to file: Texas AM-CC
+2018-11-17 11:53:50.957188 - Writing team to file: Texas State
+2018-11-17 11:53:50.957202 - Writing team to file: Towson
+2018-11-17 11:53:50.957216 - Writing team to file: UC Davis
+2018-11-17 11:53:50.957230 - Writing team to file: UC Santa Barbara
+2018-11-17 11:53:50.957245 - Writing team to file: UMASS Lowell
+2018-11-17 11:53:50.957259 - Writing team to file: UNC Asheville
+2018-11-17 11:53:50.957273 - Writing team to file: UT Chattanooga
+2018-11-17 11:53:50.957287 - Writing team to file: UW Green Bay
+2018-11-17 11:53:50.957301 - Writing team to file: Villanova
+2018-11-17 11:53:50.957315 - Writing team to file: Wagner
+2018-11-17 11:53:50.957330 - Writing team to file: Western Illinois
+2018-11-17 11:53:50.957344 - Omitting team from file: William Mary
+2018-11-17 11:53:50.957358 - Writing team to file: Winthrop
+2018-11-17 11:53:50.957372 - Writing team to file: Wisconsin
+2018-11-17 11:53:50.957386 - Writing team to file: Wright State
+2018-11-17 11:53:50.957400 - Writing team to file: Yale
+2018-11-17 11:53:50.957414 - Writing team to file: Youngstown State

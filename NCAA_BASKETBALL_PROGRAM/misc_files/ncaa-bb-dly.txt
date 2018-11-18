@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "../src/insert_picks.py", line 8, in <module>
+    f = open('output-files/teams_from_feed.txt', 'w')
+IOError: [Errno 2] No such file or directory: 'output-files/teams_from_feed.txt'

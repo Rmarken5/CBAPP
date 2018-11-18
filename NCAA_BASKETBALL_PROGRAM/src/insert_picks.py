@@ -4,8 +4,13 @@ from dbentities import Team
 from livelineentities import *
 from cbapputil import date_time_util as dtu
 import send_picks
+import os
 
-f = open('output-files/teams_from_feed.txt', 'w')
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, 'output-files/teams_from_feed.txt')
+
+
+f = open(filename, 'w')
 
 def main():
 

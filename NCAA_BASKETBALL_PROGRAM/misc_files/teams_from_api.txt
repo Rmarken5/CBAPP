@@ -56,3 +56,102 @@ West Virginia
 Western Kentucky
 Wichita State
 William Mary
+Alabama AM
+Albany
+Arkansas-Pine Bluff
+Army
+Bethune Cookman
+Boston University
+Bradley
+Brown
+CS Northridge
+Canisius
+Coastal Carolina
+Columbia
+Drake
+Drexel
+Duquesne
+East Tennessee St.
+Eastern Illinois
+Eastern Kentucky
+Eastern Michigan
+Eastern Washington
+Fairfield
+Florida Atlantic
+Florida Intl
+Fordham
+Furman
+George Mason
+George Washington
+Georgia Southern
+High Point
+Houston Baptist
+Incarnate Word
+Jacksonville
+Kennesaw State
+La Salle
+Lamar
+MD-Baltimore County
+MD-Eastern Shore
+Maine
+Manhattan
+Marquette
+Memphis
+Miami (FL)
+Miami (OH)
+Michigan
+Missouri-Kansas City
+Montana
+Montana State
+Morehead State
+New Jersey Tech
+New Mexico
+New Mexico State
+Norfolk State
+North Alabama
+North Carolina State
+North Dakota State
+North Florida
+North Texas
+Northern Iowa
+Northern Kentucky
+Northwestern State
+Notre Dame
+Old Dominion
+Pepperdine
+Portland
+Prairie View AM
+Presbyterian
+Providence
+Radford
+Rice
+Robert Morris
+SE Louisiana
+SE Missouri State
+Sacred Heart
+Seton Hall
+South Alabama
+South Carolina
+Southern AM
+Southern Illinois
+Southern Methodist
+St. Louis
+Stetson
+Stony Brook
+Texas AM-CC
+Texas State
+Towson
+UC Davis
+UC Santa Barbara
+UMASS Lowell
+UNC Asheville
+UT Chattanooga
+UW Green Bay
+Villanova
+Wagner
+Western Illinois
+Winthrop
+Wisconsin
+Wright State
+Yale
+Youngstown State

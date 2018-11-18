@@ -72,3 +72,112 @@ West Virginia
 Western Ky.
 Wichita State
 William &amp; Mary
+Alabama A&amp;M
+Albany
+Aquinas
+Ark.-Pine Bluff
+Army West Point
+Boston U.
+Bradley
+Brown
+CSUN
+California Merced
+Canisius
+Chattanooga
+Coastal Caro.
+Columbia
+Drake
+Drexel
+Duquesne
+East Tenn. St.
+Eastern Illinois
+Eastern Kentucky
+Eastern Mich.
+Eastern Wash.
+FIU
+Fairfield
+Fisk
+Florida Atlantic
+Fordham
+Ga. Southern
+Geo. Washington
+George Mason
+Green Bay
+High Point
+Hiwassee
+Houston Baptist
+Illinois Tech
+Incarnate Word
+Jacksonville
+Kennesaw State
+La Salle
+Lamar University
+Maine
+Manhattan
+Marquette
+Mass.-Lowell
+Memphis
+Miami (Fla.)
+Miami (Ohio)
+Michigan
+Minnesota-Morris
+Montana
+Montana St.
+Morehead State
+N&#039;western St.
+NC State
+NJIT
+New Mexico
+New Mexico St.
+Norfolk State
+North Alabama
+North Dakota
+North Dakota St.
+North Florida
+North Texas
+Northern Ill.
+Northern Kentucky
+Notre Dame
+Old Dominion
+Pepperdine
+Portland
+Portland State
+Prairie View A&amp;M
+Providence
+Radford
+Rice
+Robert Morris
+SMU
+Sacred Heart
+Saint Louis
+Seton Hall
+South Alabama
+South Carolina
+Southeast Mo. St.
+Southeastern La.
+Southern Ill.
+Southern Univ.
+Stetson
+Stony Brook
+Texas A&amp;M-C.C.
+Texas State
+Towson
+UC Davis
+UC Riverside
+UC Santa Barb.
+UMBC
+UMES
+UMKC
+UNC Asheville
+UNI
+Villanova
+Wagner
+Western Caro.
+Western Illinois
+Western Mich.
+Willamette
+Winthrop
+Wisconsin
+Wright State
+Yale
+Youngstown St.

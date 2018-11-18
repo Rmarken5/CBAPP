@@ -1,23 +1,14 @@
-Cornell is not in the database. 
-William Mary is not in the database. 
+St. Louis is not in the database. 
 Illinois-Chicago is not in the database. 
-Penn State is not in the database. 
-DePaul is not in the database. 
-Texas Christian is not in the database. 
-Detroit Mercy is not in the database. 
-UC Irvine is not in the database. 
-Texas AM is not in the database. 
-St. Josephs (PA) is not in the database. 
-Wake Forest is not in the database. 
-Valparaiso is not in the database. 
-Monmouth (NJ) is not in the database. 
-CS Bakersfield is not in the database. 
-Syracuse is not in the database. 
-Connecticut is not in the database. 
-North Carolina Central is not in the database. 
-Bowling Green State is not in the database. 
-Central Arkansas is not in the database. 
-Hartford is not in the database. 
-Lipscomb is not in the database. 
-Mississippi Valley St. is not in the database. 
-Abilene Christian is not in the database. 
+Incarnate Word is not in the database. 
+Miami (OH) is not in the database. 
+UW Green Bay is not in the database. 
+UC Santa Barbara is not in the database. 
+Bethune Cookman is not in the database. 
+Miami (FL) is not in the database. 
+North Carolina State is not in the database. 
+East Tennessee St. is not in the database. 
+Winthrop is not in the database. 
+Boston University is not in the database. 
+UMASS Lowell is not in the database. 
+Southern Methodist is not in the database. 
