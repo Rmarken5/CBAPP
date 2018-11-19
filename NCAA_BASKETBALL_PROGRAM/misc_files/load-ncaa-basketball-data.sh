@@ -6,7 +6,7 @@
 ###############################################################################
 
 
-python ../src/update_schedule_previous_day.py > ncaa-bb-dly.txt 2>&1 
-python ../src/update_picks_from_yesterday.py > ncaa-bb-dly.txt 2>&1 
-python ../src/populate_schedule.py > ncaa-bb-dly.txt 2>&1 
-python ../src/insert_picks.py > ncaa-bb-dly.txt 2>&1 
+python /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/src/update_schedule_previous_day.py > /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/ncaa-bb-dly.txt 2>&1 
+python /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/src/update_picks_from_yesterday.py > /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/ncaa-bb-dly.txt 2>&1 
+python /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/src/populate_schedule.py > /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/ncaa-bb-dly.txt 2>&1 
+python /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/src/insert_picks.py > /home/pegasus/programming/python/CBAPP/NCAA_BASKETBALL_PROGRAM/misc_files/ncaa-bb-dly.txt 2>&1 
