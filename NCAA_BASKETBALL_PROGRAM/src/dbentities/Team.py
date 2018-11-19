@@ -43,6 +43,7 @@ class Team(object):
                         raise RuntimeError('Error in findTeamByScheduleName: \'results\' == None for ' + self.schedule_name)
                        
                     self.createTeamFromResults(result)
+                    self.printTeam();
         except Exception as e:
             print('Issue in findTeamByScheduleName: ' + str(e))
             pass

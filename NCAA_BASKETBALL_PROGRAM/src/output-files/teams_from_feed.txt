@@ -1,14 +1,37 @@
-St. Louis is not in the database. 
-Illinois-Chicago is not in the database. 
+Texas-Arlington is not in the database. 
+College of Charleston is not in the database. 
+Wake Forest is not in the database. 
+Valparaiso is not in the database. 
+Monmouth (NJ) is not in the database. 
+St. Josephs (PA) is not in the database. 
 Incarnate Word is not in the database. 
 Miami (OH) is not in the database. 
-UW Green Bay is not in the database. 
-UC Santa Barbara is not in the database. 
-Bethune Cookman is not in the database. 
-Miami (FL) is not in the database. 
-North Carolina State is not in the database. 
-East Tennessee St. is not in the database. 
-Winthrop is not in the database. 
-Boston University is not in the database. 
+Holy Cross is not in the database. 
+Columbia is not in the database. 
+Fordham is not in the database. 
+George Washington is not in the database. 
+Campbell is not in the database. 
+Austin Peay State is not in the database. 
+Loyola-Marymount is not in the database. 
+Florida AM is not in the database. 
+Central Connecticut St. is not in the database. 
+UNC Asheville is not in the database. 
+Coastal Carolina is not in the database. 
+Kansas State is not in the database. 
+Texas AM is not in the database. 
+Virginia Military is not in the database. 
+Texas Southern is not in the database. 
+Evansville is not in the database. 
 UMASS Lowell is not in the database. 
-Southern Methodist is not in the database. 
+South Carolina State is not in the database. 
+Navy is not in the database. 
+St. Francis (NY) is not in the database. 
+Lafayette is not in the database. 
+Jacksonville is not in the database. 
+UT Chattanooga is not in the database. 
+Seattle is not in the database. 
+Army is not in the database. 
+Brown is not in the database. 
+Mount St. Marys is not in the database. 
+Alcorn State is not in the database. 
+LIU Brooklyn is not in the database. 

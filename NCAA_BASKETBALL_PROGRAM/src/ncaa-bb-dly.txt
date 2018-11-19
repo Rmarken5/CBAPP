@@ -1,0 +1,557 @@
+getTimeObjectFromString: 1:00 PM
+1
+00 PM
+2018-11-18 01:00:00
+UC Davis
+Texas-Arlington
+-4.0
+getTimeObjectFromString: 3:30 PM
+3
+30 PM
+2018-11-18 03:30:00
+Indiana
+Arkansas
+3.5
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+College of Charleston
+Oklahoma State
+-5.5
+getTimeObjectFromString: 10:30 AM
+10
+30 AM
+2018-11-18 10:30:00
+Wake Forest
+Valparaiso
+1.5
+getTimeObjectFromString: 12:55 PM
+12
+55 PM
+2018-11-18 00:55:00
+CS Fullerton
+Monmouth (NJ)
+7.0
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+St. Josephs (PA)
+West Virginia
+-7.5
+getTimeObjectFromString: 6:30 PM
+6
+30 PM
+2018-11-18 06:30:00
+Central Florida
+Western Kentucky
+1.0
+getTimeObjectFromString: 11:00 AM
+11
+00 AM
+2018-11-18 11:00:00
+North Dakota State
+Towson
+3.5
+getTimeObjectFromString: 2:00 PM
+2
+00 PM
+2018-11-18 02:00:00
+Incarnate Word
+Florida Atlantic
+-9.0
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+2018-11-18 05:00:00
+Miami (OH)
+Pepperdine
+4.0
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+2018-11-18 08:00:00
+Montana
+Georgia Southern
+6.0
+getTimeObjectFromString: 11:00 AM
+11
+00 AM
+2018-11-18 11:00:00
+Ball State
+Appalachian State
+4.5
+getTimeObjectFromString: 1:50 PM
+1
+50 PM
+2018-11-18 01:50:00
+Alabama
+Wichita State
+3.5
+getTimeObjectFromString: 6:00 PM
+6
+00 PM
+2018-11-18 06:00:00
+Northeastern
+Davidson
+-1.0
+getTimeObjectFromString: 8:30 PM
+8
+30 PM
+2018-11-18 08:30:00
+Virginia Tech
+Purdue
+-1.5
+getTimeObjectFromString: 11:00 AM
+11
+00 AM
+2018-11-18 11:00:00
+Holy Cross
+Siena
+5.0
+getTimeObjectFromString: 12:00 PM
+12
+00 PM
+2018-11-18 00:00:00
+Youngstown State
+Florida Intl
+-6.5
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+2018-11-18 05:00:00
+Columbia
+Fordham
+-3.5
+getTimeObjectFromString: 1:30 PM
+1
+30 PM
+2018-11-18 01:30:00
+Michigan
+Providence
+8.5
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+George Washington
+South Carolina
+-11.0
+getTimeObjectFromString: 12:00 PM
+12
+00 PM
+2018-11-18 00:00:00
+South Florida
+Georgetown
+-10.5
+getTimeObjectFromString: 2:55 PM
+2
+55 PM
+2018-11-18 02:55:00
+Campbell
+Austin Peay State
+-3.0
+getTimeObjectFromString: 6:30 PM
+6
+30 PM
+2018-11-18 06:30:00
+Ohio
+Loyola-Marymount
+-6.0
+getTimeObjectFromString: 9:00 PM
+9
+00 PM
+2018-11-18 09:00:00
+Florida AM
+Central Connecticut St.
+-9.5
+getTimeObjectFromString: 3:30 PM
+3
+30 PM
+2018-11-18 03:30:00
+UNC Asheville
+Manhattan
+-4.0
+getTimeObjectFromString: 6:00 PM
+6
+00 PM
+2018-11-18 06:00:00
+Coastal Carolina
+Northern Kentucky
+-9.5
+getTimeObjectFromString: 3:30 PM
+3
+30 PM
+2018-11-18 03:30:00
+Air Force
+South Dakota
+-4.0
+getTimeObjectFromString: 5:30 PM
+5
+30 PM
+2018-11-18 05:30:00
+Oregon State
+Missouri
+2.5
+getTimeObjectFromString: 7:30 PM
+7
+30 PM
+2018-11-18 07:30:00
+Pennsylvania
+Kansas State
+-10.0
+getTimeObjectFromString: 6:00 PM
+6
+00 PM
+2018-11-18 06:00:00
+Central Michigan
+San Jose State
+9.5
+getTimeObjectFromString: 8:30 PM
+8
+30 PM
+2018-11-18 08:30:00
+Weber State
+CS Bakersfield
+3.5
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+2018-11-18 08:00:00
+Washington
+Santa Clara
+15.5
+getTimeObjectFromString: 10:30 PM
+10
+30 PM
+2018-11-18 10:30:00
+Texas AM
+Minnesota
+-5.0
+getTimeObjectFromString: 2:00 PM
+2
+00 PM
+2018-11-18 02:00:00
+Wofford
+Oklahoma
+-10.0
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+2018-11-18 05:00:00
+Samford
+Cleveland State
+-2.0
+getTimeObjectFromString: 6:00 PM
+6
+00 PM
+2018-11-18 06:00:00
+Virginia Military
+Kentucky
+-32.5
+getTimeObjectFromString: 6:00 PM
+6
+00 PM
+2018-11-18 06:00:00
+Tennessee Tech
+Michigan State
+-33.0
+getTimeObjectFromString: 11:00 PM
+11
+00 PM
+2018-11-18 11:00:00
+Northern Arizona
+Hawaii
+-9.0
+getTimeObjectFromString: 1:00 PM
+1
+00 PM
+2018-11-18 01:00:00
+Texas Southern
+Evansville
+-4.0
+getTimeObjectFromString: 1:30 PM
+1
+30 PM
+2018-11-18 01:30:00
+Sacred Heart
+UMASS Lowell
+-2.0
+getTimeObjectFromString: 2:00 PM
+2
+00 PM
+2018-11-18 02:00:00
+South Carolina State
+Ohio State
+-31.5
+getTimeObjectFromString: 2:00 PM
+2
+00 PM
+2018-11-18 02:00:00
+Bryant
+Navy
+-8.5
+getTimeObjectFromString: 2:00 PM
+2
+00 PM
+2018-11-18 02:00:00
+St. Francis (NY)
+Lafayette
+-6.0
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+Jacksonville
+UT Chattanooga
+0.0
+getTimeObjectFromString: 3:00 PM
+3
+00 PM
+2018-11-18 03:00:00
+Central Arkansas
+Troy
+-9.0
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+Southern Utah
+Seattle
+-5.0
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+Army
+Brown
+-3.5
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+Mount St. Marys
+Maryland
+-25.5
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+2018-11-18 04:00:00
+Alcorn State
+Kent State
+-15.5
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+2018-11-18 08:00:00
+LIU Brooklyn
+San Francisco
+-16.5
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+getTimeObjectFromString: 9:00 PM
+9
+00 PM
+getTimeObjectFromString: 11:00 AM
+11
+00 AM
+getTimeObjectFromString: 1:30 PM
+1
+30 PM
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+getTimeObjectFromString: 7:30 PM
+7
+30 PM
+getTimeObjectFromString: 11:00 AM
+11
+00 AM
+getTimeObjectFromString: 1:30 PM
+1
+30 PM
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+getTimeObjectFromString: 7:30 PM
+7
+30 PM
+getTimeObjectFromString: 1:00 PM
+1
+00 PM
+getTimeObjectFromString: 3:00 PM
+3
+00 PM
+getTimeObjectFromString: 2:00 PM
+2
+00 PM
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+getTimeObjectFromString: 2:30 PM
+2
+30 PM
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+getTimeObjectFromString: 9:00 PM
+9
+00 PM
+getTimeObjectFromString: 11:30 PM
+11
+30 PM
+getTimeObjectFromString: 5:00 PM
+5
+00 PM
+getTimeObjectFromString: 7:30 PM
+7
+30 PM
+getTimeObjectFromString: 6:00 PM
+6
+00 PM
+getTimeObjectFromString: 8:30 PM
+8
+30 PM
+getTimeObjectFromString: 6:30 PM
+6
+30 PM
+getTimeObjectFromString: 9:00 PM
+9
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 9:30 PM
+9
+30 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 9:30 PM
+9
+30 PM
+getTimeObjectFromString: 8:30 PM
+8
+30 PM
+getTimeObjectFromString: 11:00 PM
+11
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+getTimeObjectFromString: 4:00 PM
+4
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 7:00 PM
+7
+00 PM
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+getTimeObjectFromString: 8:00 PM
+8
+00 PM
+getTimeObjectFromString: 11:00 PM
+11
+00 PM
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Texas-Arlington
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for College of Charleston
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Wake Forest
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Valparaiso
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Monmouth (NJ)
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for St. Josephs (PA)
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Incarnate Word
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Miami (OH)
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Holy Cross
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Columbia
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Fordham
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for George Washington
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Campbell
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Austin Peay State
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Loyola-Marymount
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Florida AM
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Central Connecticut St.
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for UNC Asheville
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Coastal Carolina
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Kansas State
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Texas AM
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Virginia Military
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Texas Southern
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Evansville
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for UMASS Lowell
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for South Carolina State
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Navy
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for St. Francis (NY)
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Lafayette
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Jacksonville
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for UT Chattanooga
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Seattle
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Army
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Brown
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Mount St. Marys
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for Alcorn State
+Error in findTeamBySpreadName: Error in findTeamBySpreadName: 'results' == None for LIU Brooklyn
+Insert into pick complete: date: 2018/11/18. Home team: Arkansas. Away team: Indiana
+Insert into pick complete: date: 2018/11/18. Home team: Western Kentucky. Away team: Central Florida
+Insert into pick complete: date: 2018/11/18. Home team: Towson. Away team: North Dakota State
+Insert into pick complete: date: 2018/11/18. Home team: Georgia Southern. Away team: Montana
+Insert into pick complete: date: 2018/11/18. Home team: Appalachian State. Away team: Ball State
+Insert into pick complete: date: 2018/11/18. Home team: Wichita State. Away team: Alabama
+Insert into pick complete: date: 2018/11/18. Home team: Davidson. Away team: Northeastern
+Insert into pick complete: date: 2018/11/18. Home team: Purdue. Away team: Virginia Tech
+Insert into pick complete: date: 2018/11/18. Home team: Florida Intl. Away team: Youngstown State
+Insert into pick complete: date: 2018/11/18. Home team: Providence. Away team: Michigan
+Insert into pick complete: date: 2018/11/18. Home team: Georgetown. Away team: South Florida
+Insert into pick complete: date: 2018/11/18. Home team: South Dakota. Away team: Air Force
+Insert into pick complete: date: 2018/11/18. Home team: Missouri. Away team: Oregon State
+Insert into pick complete: date: 2018/11/18. Home team: San Jose State. Away team: Central Michigan
+Insert into pick complete: date: 2018/11/18. Home team: CS Bakersfield. Away team: Weber State
+Insert into pick complete: date: 2018/11/18. Home team: Santa Clara. Away team: Washington
+Insert into pick complete: date: 2018/11/18. Home team: Oklahoma. Away team: Wofford
+Insert into pick complete: date: 2018/11/18. Home team: Cleveland State. Away team: Samford
+Insert into pick complete: date: 2018/11/18. Home team: Michigan State. Away team: Tennessee Tech
+Insert into pick complete: date: 2018/11/18. Home team: Hawaii. Away team: Northern Arizona
+Insert into pick complete: date: 2018/11/18. Home team: Troy. Away team: Central Arkansas
+2018-18-11
+[{u'HOME_TEAM': u'Arkansas', u'AWAY_TEAM': u'Indiana', u'GAME_TIME': datetime.timedelta(0, 12600), u'FAVORITE': u'Arkansas', u'SPREAD': 3.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Western Ky.', u'AWAY_TEAM': u'UCF', u'GAME_TIME': datetime.timedelta(0, 23400), u'FAVORITE': u'UCF', u'SPREAD': 1.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Towson', u'AWAY_TEAM': u'North Dakota St.', u'GAME_TIME': datetime.timedelta(0, 39600), u'FAVORITE': u'North Dakota St.', u'SPREAD': 3.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Ga. Southern', u'AWAY_TEAM': u'Montana', u'GAME_TIME': datetime.timedelta(0, 28800), u'FAVORITE': u'Ga. Southern', u'SPREAD': 6.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Appalachian St.', u'AWAY_TEAM': u'Ball State', u'GAME_TIME': datetime.timedelta(0, 39600), u'FAVORITE': u'Ball State', u'SPREAD': 4.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Wichita State', u'AWAY_TEAM': u'Alabama', u'GAME_TIME': datetime.timedelta(0, 6600), u'FAVORITE': u'Alabama', u'SPREAD': 3.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Davidson', u'AWAY_TEAM': u'Northeastern', u'GAME_TIME': datetime.timedelta(0, 21600), u'FAVORITE': u'Davidson', u'SPREAD': -1.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Purdue', u'AWAY_TEAM': u'Virginia Tech', u'GAME_TIME': datetime.timedelta(0, 30600), u'FAVORITE': u'Virginia Tech', u'SPREAD': -1.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'FIU', u'AWAY_TEAM': u'Youngstown St.', u'GAME_TIME': datetime.timedelta(0), u'FAVORITE': u'FIU', u'SPREAD': -6.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Providence', u'AWAY_TEAM': u'Michigan', u'GAME_TIME': datetime.timedelta(0, 5400), u'FAVORITE': u'Providence', u'SPREAD': 8.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Georgetown', u'AWAY_TEAM': u'South Florida', u'GAME_TIME': datetime.timedelta(0), u'FAVORITE': u'Georgetown', u'SPREAD': -10.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'South Dakota', u'AWAY_TEAM': u'Air Force', u'GAME_TIME': datetime.timedelta(0, 12600), u'FAVORITE': u'Air Force', u'SPREAD': -4.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Missouri', u'AWAY_TEAM': u'Oregon St.', u'GAME_TIME': datetime.timedelta(0, 19800), u'FAVORITE': u'Missouri', u'SPREAD': 2.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'San Jose State', u'AWAY_TEAM': u'Cent. Michigan', u'GAME_TIME': datetime.timedelta(0, 21600), u'FAVORITE': u'San Jose State', u'SPREAD': 9.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'CSU Bakersfield', u'AWAY_TEAM': u'Weber State', u'GAME_TIME': datetime.timedelta(0, 30600), u'FAVORITE': u'CSU Bakersfield', u'SPREAD': 3.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Santa Clara', u'AWAY_TEAM': u'Washington', u'GAME_TIME': datetime.timedelta(0, 28800), u'FAVORITE': u'Santa Clara', u'SPREAD': 15.5, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Oklahoma', u'AWAY_TEAM': u'Wofford', u'GAME_TIME': datetime.timedelta(0, 7200), u'FAVORITE': u'Oklahoma', u'SPREAD': -10.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Cleveland State', u'AWAY_TEAM': u'Samford', u'GAME_TIME': datetime.timedelta(0, 18000), u'FAVORITE': u'Cleveland State', u'SPREAD': -2.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Mich. St.', u'AWAY_TEAM': u'Tennessee Tech', u'GAME_TIME': datetime.timedelta(0, 21600), u'FAVORITE': u'Tennessee Tech', u'SPREAD': -33.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Hawaii', u'AWAY_TEAM': u'Northern Ariz.', u'GAME_TIME': datetime.timedelta(0, 39600), u'FAVORITE': u'Northern Ariz.', u'SPREAD': -9.0, u'GAME_DATE': datetime.date(2018, 11, 18)}, {u'HOME_TEAM': u'Troy', u'AWAY_TEAM': u'Central Ark.', u'GAME_TIME': datetime.timedelta(0, 10800), u'FAVORITE': u'Central Ark.', u'SPREAD': -9.0, u'GAME_DATE': datetime.date(2018, 11, 18)}]

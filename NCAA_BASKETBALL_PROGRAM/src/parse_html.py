@@ -125,12 +125,17 @@ def getTimeForGame(game):
             return time
 
 def getScores(game):
+    i = 0
     scores = []
-    lines = game.split('/n')
-    for line in lines:
-        if '<td class="final score">' in line:
-            score = find_between(line, '<td class="final score">', '</td>')
-            scores.append(score)
+    sections = game.split('<li class=')
+    away_section = sections[1]
+    home_section = sections[2]
+    score = find_between(away_section,'<span class="gamePod-game-team-score">', '</span>')
+    print 'away score: ' + score
+    scores.append(score)
+    score = find_between(home_section,'<span class="gamePod-game-team-score">', '</span>')
+    print 'home score: ' + score
+    scores.append(score)
     return scores
             
 def getDateFromDateTime(input):
@@ -185,10 +190,14 @@ def getAllGames(html,date):
             away_team.schedule_name = away_participant.participant_name
             home_team.schedule_name = home_participant.participant_name
             away_team.findTeamByScheduleName()
+
             home_team.findTeamByScheduleName()
+            
+            
             if away_team.id is not 0 and home_team.id is not 0:
                 scores = []
                 scores = getScores(game)
+
                 if len(scores) > 1:
                     away_score = scores[0]
                     home_score = scores[1]
